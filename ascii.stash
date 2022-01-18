@@ -1,4 +1,11 @@
-# ASCII Codes
+# <#>ASCII<> SpeedSheet
+<b>Find what you need, faster.<>
+
+A searchable ASCII cheatsheet.
+
+
+<image "ascii-example.webp">
+
 
 # 0 NUL - Null
 
@@ -3931,7 +3938,7 @@ Hex: 0A<><>
 @ EOL, end of line, nl
 
 
-# Search Terms
+# Help
 
 Use these search terms / formats to find something specific.
 
@@ -3974,5 +3981,6 @@ currencies
 diacritic
 numbers
 punctuation<>
-
+@
+@ tips, tricks, help, search terms
 

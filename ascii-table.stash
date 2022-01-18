@@ -1,4 +1,8 @@
-# ASCII Codes
+# <#>ASCII Table<> SpeedSheet
+<b>Find what you need, faster.<>
+
+A searchable ASCII table.
+
 
 #### <table><col><c>  0<> <><col><c>00<> <><col><c>00000000<> <><col><c>NUL<> <><col>Null <><>
 @ #00, 0x00, 00000000, control characters, ^@, \\\0
@@ -531,7 +535,7 @@ Hex: 0A<><>
 @ EOL, end of line, nl
 
 
-# Search Terms
+# Help
 
 Use these search terms / formats to find something specific.
 
@@ -574,5 +578,6 @@ currencies
 diacritic
 numbers
 punctuation<>
-
+@
+@ tips, tricks, help, search terms
 
