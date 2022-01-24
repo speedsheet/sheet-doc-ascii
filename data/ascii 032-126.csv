@@ -1,0 +1,223 @@
+code,name,folded,description,description-2,link
+32, ,,Space,,https://en.wikipedia.org/wiki/Whitespace_character
+33,!,,Exclamation Mark,Exclamation Point,https://en.wikipedia.org/wiki/Exclamation_mark
+34,\",,Quotation Mark,Quotes / Double Quote / Inverted Commas,https://en.wikipedia.org/wiki/Quotation_mark
+35,#,,Number Sign,Hash / Pound Sign,https://en.wikipedia.org/wiki/Number_sign
+36,$,,Dollar Sign,Peso Sign,https://en.wikipedia.org/wiki/Dollar_sign
+37,%,,Percent Sign,,https://en.wikipedia.org/wiki/Percent_sign
+38,&,,Ampersand,And Sign,https://en.wikipedia.org/wiki/Ampersand
+39,',,Apostrophe,Single Quote,https://en.wikipedia.org/wiki/Apostrophe
+40,(,,Left Parenthesis,Round Bracket,https://en.wikipedia.org/wiki/Parenthesis
+41,),,Right Parenthesis,Round Bracket,https://en.wikipedia.org/wiki/Parenthesis
+42,*,,Asterisk,Star,https://en.wikipedia.org/wiki/Asterisk
+43,+,,Plus Sign,,https://en.wikipedia.org/wiki/Plus_sign
+44,_,,Comma,,https://en.wikipedia.org/wiki/Comma
+45,-,,Minus Sign,Dash,https://en.wikipedia.org/wiki/Minus_sign
+46,.,,Period,Full Stop / Full Point,https://en.wikipedia.org/wiki/Full_stop
+47,/,,Forward Slash,Oblique Stroke / Solidus (Unicode),https://en.wikipedia.org/wiki/Slash_(punctuation)
+48,0,,Number 0,Zero,https://en.wikipedia.org/wiki/0
+49,1,,Number 1,One,https://en.wikipedia.org/wiki/1
+50,2,,Number 2,Two,https://en.wikipedia.org/wiki/2
+51,3,,Number 3,Three,https://en.wikipedia.org/wiki/3
+52,4,,Number 4,Four,https://en.wikipedia.org/wiki/4
+53,5,,Number 5,Five,https://en.wikipedia.org/wiki/5
+54,6,,Number 6,Six,https://en.wikipedia.org/wiki/6
+55,7,,Number 7,Seven,https://en.wikipedia.org/wiki/7
+56,8,,Number 8,Eight,https://en.wikipedia.org/wiki/8
+57,9,,Number 9,Nine,https://en.wikipedia.org/wiki/9
+58,:,,Colon,,https://en.wikipedia.org/wiki/Colon_(punctuation)
+59,;,,Semicolon,Semi-colon,https://en.wikipedia.org/wiki/Semicolon
+60,<,,Less-Than Sign,Left Angle Bracket,https://en.wikipedia.org/wiki/Less-than_sign
+61,=,,Equals Sign,,https://en.wikipedia.org/wiki/Equals_sign
+62,>,,Greater-Than Sign,Right Angle Bracket,https://en.wikipedia.org/wiki/Greater-than_sign
+63,?,,Question Mark,,https://en.wikipedia.org/wiki/Question_mark
+64,@,,At Sign,At Symbol,https://en.wikipedia.org/wiki/@
+65,A,a,Upper Case A,,https://en.wikipedia.org/wiki/A
+66,B,b,Upper Case B,,https://en.wikipedia.org/wiki/B
+67,C,c,Upper Case C,,https://en.wikipedia.org/wiki/C
+68,D,d,Upper Case D,,https://en.wikipedia.org/wiki/D
+69,E,e,Upper Case E,,https://en.wikipedia.org/wiki/E
+70,F,f,Upper Case F,,https://en.wikipedia.org/wiki/F
+71,G,g,Upper Case G,,https://en.wikipedia.org/wiki/G
+72,H,h,Upper Case H,,https://en.wikipedia.org/wiki/H
+73,I,i,Upper Case I,,https://en.wikipedia.org/wiki/I
+74,J,j,Upper Case J,,https://en.wikipedia.org/wiki/J
+75,K,k,Upper Case K,,https://en.wikipedia.org/wiki/K
+76,L,l,Upper Case L,,https://en.wikipedia.org/wiki/L
+77,M,m,Upper Case M,,https://en.wikipedia.org/wiki/M
+78,N,n,Upper Case N,,https://en.wikipedia.org/wiki/N
+79,O,o,Upper Case O,,https://en.wikipedia.org/wiki/O
+80,P,p,Upper Case P,,https://en.wikipedia.org/wiki/P
+81,Q,q,Upper Case Q,,https://en.wikipedia.org/wiki/Q
+82,R,r,Upper Case R,,https://en.wikipedia.org/wiki/R
+83,S,s,Upper Case S,,https://en.wikipedia.org/wiki/S
+84,T,t,Upper Case T,,https://en.wikipedia.org/wiki/T
+85,U,u,Upper Case U,,https://en.wikipedia.org/wiki/U
+86,V,v,Upper Case V,,https://en.wikipedia.org/wiki/V
+87,W,w,Upper Case W,,https://en.wikipedia.org/wiki/W
+88,X,x,Upper Case X,,https://en.wikipedia.org/wiki/X
+89,Y,y,Upper Case Y,,https://en.wikipedia.org/wiki/Y
+90,Z,z,Upper Case Z,,https://en.wikipedia.org/wiki/Z
+91,[,,Left Square Bracket,,https://en.wikipedia.org/wiki/Square_brackets
+92,\\,,Backslash,Reverse Slash,https://en.wikipedia.org/wiki/Backslash
+93,],,Right Square Bracket,,https://en.wikipedia.org/wiki/Square_brackets
+94,^,,Caret,,https://en.wikipedia.org/wiki/Caret
+95,_,,Underscore,Underline / Low Line,https://en.wikipedia.org/wiki/Underscore
+96,`,,Grave Accent,,https://en.wikipedia.org/wiki/Grave_accent
+97,a,a,Lower Case A,,https://en.wikipedia.org/wiki/A
+98,b,b,Lower Case B,,https://en.wikipedia.org/wiki/B
+99,c,c,Lower Case C,,https://en.wikipedia.org/wiki/C
+100,d,d,Lower Case D,,https://en.wikipedia.org/wiki/D
+101,e,e,Lower Case E,,https://en.wikipedia.org/wiki/E
+102,f,f,Lower Case F,,https://en.wikipedia.org/wiki/F
+103,g,g,Lower Case G,,https://en.wikipedia.org/wiki/G
+104,h,h,Lower Case H,,https://en.wikipedia.org/wiki/H
+105,i,i,Lower Case I,,https://en.wikipedia.org/wiki/I
+106,j,j,Lower Case J,,https://en.wikipedia.org/wiki/J
+107,k,k,Lower Case K,,https://en.wikipedia.org/wiki/K
+108,l,l,Lower Case L,,https://en.wikipedia.org/wiki/L
+109,m,m,Lower Case M,,https://en.wikipedia.org/wiki/M
+110,n,n,Lower Case N,,https://en.wikipedia.org/wiki/N
+111,o,o,Lower Case O,,https://en.wikipedia.org/wiki/O
+112,p,p,Lower Case P,,https://en.wikipedia.org/wiki/P
+113,q,q,Lower Case Q,,https://en.wikipedia.org/wiki/Q
+114,r,r,Lower Case R,,https://en.wikipedia.org/wiki/R
+115,s,s,Lower Case S,,https://en.wikipedia.org/wiki/S
+116,t,t,Lower Case T,,https://en.wikipedia.org/wiki/T
+117,u,u,Lower Case U,,https://en.wikipedia.org/wiki/U
+118,v,v,Lower Case V,,https://en.wikipedia.org/wiki/V
+119,w,w,Lower Case W,,https://en.wikipedia.org/wiki/W
+120,x,x,Lower Case X,,https://en.wikipedia.org/wiki/X
+121,y,y,Lower Case Y,,https://en.wikipedia.org/wiki/Y
+122,z,z,Lower Case Z,,https://en.wikipedia.org/wiki/Z
+123,{,,Left Bracket,Left Curly Brackets / Braces,https://en.wikipedia.org/wiki/Curly_brackets
+124,|,,Vertical Bar,Pipe,https://en.wikipedia.org/wiki/Vertical_bar
+125,},,Right Bracket,Right Curly Brackets / Braces,https://en.wikipedia.org/wiki/Curly_brackets
+126,~,,Tilde,,https://en.wikipedia.org/wiki/Tilde
+128,n/a,,,,
+129,n/a,,,,
+130,n/a,,,,
+131,n/a,,,,
+132,n/a,,,,
+133,n/a,,,,
+134,n/a,,,,
+135,n/a,,,,
+136,n/a,,,,
+137,n/a,,,,
+138,n/a,,,,
+139,n/a,,,,
+140,n/a,,,,
+141,n/a,,,,
+142,n/a,,,,
+143,n/a,,,,
+144,n/a,,,,
+145,n/a,,,,
+146,n/a,,,,
+147,n/a,,,,
+148,n/a,,,,
+149,n/a,,,,
+150,n/a,,,,
+151,n/a,,,,
+152,n/a,,,,
+153,n/a,,,,
+154,n/a,,,,
+155,n/a,,,,
+156,n/a,,,,
+157,n/a,,,,
+158,n/a,,,,
+159,n/a,,,,
+160,&nbsp;,,&nbsp;,Non-breaking Space / Required Space / NBSP,https://en.wikipedia.org/wiki/Non-breaking_space
+161,¡,,Inverted Exclamation Mark,,https://en.wikipedia.org/wiki/Inverted_question_and_exclamation_marks
+162,¢,,Cent,,https://en.wikipedia.org/wiki/Cent_(currency)
+163,£,,Pound Sign,,https://en.wikipedia.org/wiki/Pound_sign
+164,¤,,Currency Sign,Scarab,https://en.wikipedia.org/wiki/Currency_sign_(typography)
+165,¥,,Yen Sign,Yuan Sign,https://en.wikipedia.org/wiki/Yen_sign
+166,¦,,Vertical Bar,Broken Bar,https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar
+167,§,,Section Sign,,https://en.wikipedia.org/wiki/Section_sign
+168,¨,,Umlaut,Diaeresis (Diacritic) / Trema,https://en.wikipedia.org/wiki/Diaeresis_(diacritic)
+169,©,,Copyright Symbol,Copyright Sign,https://en.wikipedia.org/wiki/Copyright_symbol
+170,ª,,Ordinal Indicator,,https://en.wikipedia.org/wiki/Ordinal_indicator#Feminine
+171,«,,Left Guillemet,,https://en.wikipedia.org/wiki/Guillemet
+172,¬,,Negation,,https://en.wikipedia.org/wiki/Negation
+174,®,,Registered Trademark Symbol,,https://en.wikipedia.org/wiki/Registered_trademark_symbol
+175,¯,,Macron (Diacritic),Straight Bar / Overbar / Overline,https://en.wikipedia.org/wiki/Macron_(diacritic)
+176,°,,Degree Symbol,Degree Sign,https://en.wikipedia.org/wiki/Degree_symbol
+177,±,,Plus-Minus Sign,,https://en.wikipedia.org/wiki/Plus%E2%80%93minus_sign
+178,²,,Superscript 2,Supescript Two,
+179,³,,Superscript 3,Superscript Three,
+180,´,,Acute Accent,,https://en.wikipedia.org/wiki/Acute_accent
+181,µ,μ,Greek Letter Μu,Micro,https://en.wikipedia.org/wiki/Micro-
+182,¶,,Pilcrow,Paragraph Mark / Paragraph,https://en.wikipedia.org/wiki/Pilcrow
+183,·,,Interpunct,Middle Dot / Middot / Centered Dot,https://en.wikipedia.org/wiki/Interpunct
+184,¸,,Cedilla,Cedille,https://en.wikipedia.org/wiki/Cedilla
+185,¹,,Superscript 1,Superscript One,
+186,º,,Ordinal Indicator,,https://en.wikipedia.org/wiki/Ordinal_indicator#Masculine
+187,»,,Right Guillemet,,https://en.wikipedia.org/wiki/Guillemet
+188,¼,,Quarter Fraction,One Over Four,https://en.wikipedia.org/wiki/Fraction_(mathematics)#Typographical_variations
+189,½,,Half Fraction,One Half / One Over Two,https://en.wikipedia.org/wiki/One_half
+190,¾,,Three Quarters Fraction,Three Over Four,https://en.wikipedia.org/wiki/Fraction#Typographical_variations
+191,¿,,Inverted Question Mark,,https://en.wikipedia.org/wiki/Inverted_question_mark
+192,À,à,Upper Case A-Grave,,https://en.wikipedia.org/wiki/%C3%80
+193,Á,á,Upper Case A-Acute,,https://en.wikipedia.org/wiki/%C3%81
+194,Â,â,Upper Case A-Circumflex,,https://en.wikipedia.org/wiki/%C3%82
+195,Ã,ã,Upper Case A With Tilde,,https://en.wikipedia.org/wiki/%C3%83
+196,Ä,ä,Upper Case A With Umlaut,,https://en.wikipedia.org/wiki/%C3%84
+197,Å,å,Upper Case A-Ring,,https://en.wikipedia.org/wiki/%C3%85
+198,Æ,æ,Upper Case Æ,,https://en.wikipedia.org/wiki/%C3%86
+199,Ç,ç,Upper Case C-cedilla,,https://en.wikipedia.org/wiki/%C3%87
+200,È,è,Upper Case E-Grave,,https://en.wikipedia.org/wiki/%C3%88
+201,É,é,Upper Case E-Acute,,https://en.wikipedia.org/wiki/%C3%89
+202,Ê,ê,Upper Case E-Circumflex,,https://en.wikipedia.org/wiki/%C3%8A
+203,Ë,ë,Upper Case E With Umlaut,,https://en.wikipedia.org/wiki/%C3%8B
+204,Ì,ì,Upper Case I-Grave,,https://en.wikipedia.org/wiki/%C3%8C
+205,Í,í,Upper Case I-Acute,,https://en.wikipedia.org/wiki/%C3%8D
+206,Î,î,Upper Case I-Circumflex,,https://en.wikipedia.org/wiki/%C3%8E
+207,Ï,ï,Upper Case I With Umlaut,,https://en.wikipedia.org/wiki/%C3%8F
+208,Ð,ð,Upper Case Eth,Edh,https://en.wikipedia.org/wiki/Eth
+209,Ñ,ñ,Upper Case Eñe,,https://en.wikipedia.org/wiki/%C3%91
+210,Ò,ò,Upper Case O-Grave,,https://en.wikipedia.org/wiki/%C3%92
+211,Ó,ó,Upper Case O-Acute,,https://en.wikipedia.org/wiki/%C3%93
+212,Ô,ô,Upper Case O-Circumflex,,https://en.wikipedia.org/wiki/%C3%94
+213,Õ,õ,Upper Case O With Tilde,,https://en.wikipedia.org/wiki/%C3%95
+214,Ö,ö,Upper Case O With Umlaut,,https://en.wikipedia.org/wiki/%C3%96
+215,×,,Multiply Sign,Times Sign,https://en.wikipedia.org/wiki/Multiplication_sign
+216,Ø,ø,Upper Case Ø,,https://en.wikipedia.org/wiki/%C3%98
+217,Ù,ù,Upper Case U-Grave,,https://en.wikipedia.org/wiki/%C3%99
+218,Ú,ú,Upper Case U-Acute,,https://en.wikipedia.org/wiki/%C3%9A
+219,Û,û,Upper Case U-Circumflex,,https://en.wikipedia.org/wiki/%C3%9B
+220,Ü,ü,Upper Case U With Umlaut,,https://en.wikipedia.org/wiki/%C3%9C
+221,Ý,ý,Upper Case Y-Acute,,https://en.wikipedia.org/wiki/%C3%9D
+222,Þ,þ,Upper Case Þ,Thorn / Þorn,https://en.wikipedia.org/wiki/Thorn_(letter)
+223,ß,ss,Upper Case ß,Eszett,https://en.wikipedia.org/wiki/%C3%9F
+224,à,à,Lower Case A-Grave,,https://en.wikipedia.org/wiki/%C3%80
+225,á,á,Lower Case A-Acute,,https://en.wikipedia.org/wiki/%C3%81
+226,â,â,Lower Case A-Circumflex,,https://en.wikipedia.org/wiki/%C3%82
+227,ã,ã,Lower Case A With Tilde,,https://en.wikipedia.org/wiki/%C3%83
+228,ä,ä,Lower Case A With Umlaut,,https://en.wikipedia.org/wiki/%C3%84
+229,å,å,Lower Case A-Ring,,https://en.wikipedia.org/wiki/%C3%85
+230,æ,æ,Letter Æ,,https://en.wikipedia.org/wiki/%C3%86
+231,ç,ç,Lower Case Ç,,https://en.wikipedia.org/wiki/%C3%87
+232,è,è,Lower Case E-Grave,,https://en.wikipedia.org/wiki/%C3%88
+233,é,é,Lower Case E-Acute,,https://en.wikipedia.org/wiki/%C3%89
+234,ê,ê,Lower Case E-Circumflex,,https://en.wikipedia.org/wiki/%C3%8A
+235,ë,ë,Lower Case E With Umlaut,,https://en.wikipedia.org/wiki/%C3%8B
+236,ì,ì,Lower Case I-Grave,,https://en.wikipedia.org/wiki/%C3%8C
+237,í,í,Lower Case I-Acute,,https://en.wikipedia.org/wiki/%C3%8D
+238,î,î,Lower Case I-Circumflex,,https://en.wikipedia.org/wiki/%C3%8E
+239,ï,ï,Lower Case I With Umlaut,,https://en.wikipedia.org/wiki/%C3%8F
+240,ð,ð,Lower Case Eth,Edh,https://en.wikipedia.org/wiki/Eth
+241,ñ,ñ,Lower Case Eñe,,https://en.wikipedia.org/wiki/%C3%91
+242,ò,ò,Lower Case O-Grave,,https://en.wikipedia.org/wiki/%C3%92
+243,ó,ó,Lower Case O-Acute,,https://en.wikipedia.org/wiki/%C3%93
+244,ô,ô,Lower Case O-Circumflex,,https://en.wikipedia.org/wiki/%C3%94
+245,õ,õ,Lower Case O With Tilde,,https://en.wikipedia.org/wiki/%C3%95
+246,ö,ö,Lower Case O With Umlaut,,https://en.wikipedia.org/wiki/%C3%96
+247,÷,,Obelus,Division Sign / Divide Sign,https://en.wikipedia.org/wiki/Obelus
+248,ø,ø,Lower Case Ø,,https://en.wikipedia.org/wiki/%C3%98
+249,ù,ù,Lower Case U-Grave,,https://en.wikipedia.org/wiki/%C3%99
+250,ú,ú,Lower Case U-Acute,,https://en.wikipedia.org/wiki/%C3%9A
+251,û,û,Lower Case U-Circumflex,,https://en.wikipedia.org/wiki/%C3%9B
+252,ü,ü,Lower Case U With Umlaut,,https://en.wikipedia.org/wiki/%C3%9C
+253,ý,ý,Lower Case Y-Acute,,https://en.wikipedia.org/wiki/%C3%9D
+254,þ,þ,Lower Case Þ,Thorn / Þorn,https://en.wikipedia.org/wiki/Thorn_(letter)
+255,ÿ,ÿ,Lower Case Y With Umlaut,,https://en.wikipedia.org/wiki/%C5%B8

@@ -21,7 +21,7 @@ Null
 <col>More<><col><l>https://en.wikipedia.org/wiki/Null_character<><>
 <>
 @
-@ #00, 0x00, 00000000, control characters, ^@, \\\0
+@ #00, 0x00, 00000000, 0, control characters, ^@, \\\0
 
 
 # 1 SOH - Start of Heading
@@ -37,7 +37,7 @@ Start of Heading
 <col>More<><col><l>https://en.wikipedia.org/wiki/Start_of_heading<><>
 <>
 @
-@ #01, 0x01, 00000001, control characters, ^A
+@ #01, 0x01, 00000001, 1, control characters, ^A
 
 
 # 2 STX - Start of Text
@@ -53,7 +53,7 @@ Start of Text
 <col>More<><col><l>https://en.wikipedia.org/wiki/Start_of_text<><>
 <>
 @
-@ #02, 0x02, 00000010, control characters, ^B
+@ #02, 0x02, 00000010, 10, control characters, ^B
 
 
 # 3 ETX - End of Text
@@ -69,7 +69,7 @@ End of Text
 <col>More<><col><l>https://en.wikipedia.org/wiki/End-of-Text_character<><>
 <>
 @
-@ #03, 0x03, 00000011, control characters, ^C
+@ #03, 0x03, 00000011, 11, control characters, ^C
 
 
 # 4 EOT - End of Transmission
@@ -85,7 +85,7 @@ End of Transmission
 <col>More<><col><l>https://en.wikipedia.org/wiki/End_of_transmission_character<><>
 <>
 @
-@ #04, 0x04, 00000100, control characters, ^D
+@ #04, 0x04, 00000100, 100, control characters, ^D
 
 
 # 5 ENQ - Enquiry
@@ -101,7 +101,7 @@ Enquiry
 <col>More<><col><l>https://en.wikipedia.org/wiki/Enquiry_character<><>
 <>
 @
-@ #05, 0x05, 00000101, control characters, ^E
+@ #05, 0x05, 00000101, 101, control characters, ^E
 
 
 # 6 ACK - Acknowledgement
@@ -117,7 +117,7 @@ Acknowledgement
 <col>More<><col><l>https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)<><>
 <>
 @
-@ #06, 0x06, 00000110, control characters, ^F
+@ #06, 0x06, 00000110, 110, control characters, ^F
 
 
 # 7 BEL - Bell
@@ -134,7 +134,7 @@ Bell
 <col>More<><col><l>https://en.wikipedia.org/wiki/Bell_character<><>
 <>
 @
-@ #07, 0x07, 00000111, control characters, ^G, \\\a
+@ #07, 0x07, 00000111, 111, control characters, ^G, \\\a
 
 
 # 8 BS - Backspace
@@ -151,7 +151,7 @@ Backspace
 <col>More<><col><l>https://en.wikipedia.org/wiki/Backspace<><>
 <>
 @
-@ #08, 0x08, 00001000, control characters, ^H, \\\b
+@ #08, 0x08, 00001000, 1000, control characters, ^H, \\\b
 
 
 # 9 HT - Horizontal Tab
@@ -168,7 +168,7 @@ Horizontal Tab
 <col>More<><col><l>https://en.wikipedia.org/wiki/Tab_character<><>
 <>
 @
-@ #09, 0x09, 00001001, control characters, ^I, \\\t
+@ #09, 0x09, 00001001, 1001, control characters, ^I, \\\t
 
 
 # 10 LF - Line Feed
@@ -185,7 +185,7 @@ Line Feed
 <col>More<><col><l>https://en.wikipedia.org/wiki/Line_feed<><>
 <>
 @
-@ #0A, 0x0A, 00001010, control characters, newline, nl, ^J, \\\n
+@ #0A, 0x0A, 00001010, 1010, control characters, newline, nl, ^J, \\\n
 
 
 # 11 VT - Vertical Tab
@@ -202,7 +202,7 @@ Vertical Tab
 <col>More<><col><l>https://en.wikipedia.org/wiki/Vertical_tab<><>
 <>
 @
-@ #0B, 0x0B, 00001011, control characters, ^K, \\\v
+@ #0B, 0x0B, 00001011, 1011, control characters, ^K, \\\v
 
 
 # 12 FF - Form Feed
@@ -219,7 +219,7 @@ Form Feed
 <col>More<><col><l>https://en.wikipedia.org/wiki/Form_feed<><>
 <>
 @
-@ #0C, 0x0C, 00001100, control characters, ^L, \\\f
+@ #0C, 0x0C, 00001100, 1100, control characters, ^L, \\\f
 
 
 # 13 CR - Carriage Return
@@ -236,7 +236,7 @@ Carriage Return
 <col>More<><col><l>https://en.wikipedia.org/wiki/Carriage_return<><>
 <>
 @
-@ #0D, 0x0D, 00001101, control characters, newline, nl, ^M, \\\r
+@ #0D, 0x0D, 00001101, 1101, control characters, newline, nl, ^M, \\\r
 
 
 # 14 SO - Shift Out
@@ -252,7 +252,7 @@ Shift Out
 <col>More<><col><l>https://en.wikipedia.org/wiki/Shift_out<><>
 <>
 @
-@ #0E, 0x0E, 00001110, control characters, ^N
+@ #0E, 0x0E, 00001110, 1110, control characters, ^N
 
 
 # 15 SI - Shift In
@@ -268,7 +268,7 @@ Shift In
 <col>More<><col><l>https://en.wikipedia.org/wiki/Shift_in<><>
 <>
 @
-@ #0F, 0x0F, 00001111, control characters, ^O
+@ #0F, 0x0F, 00001111, 1111, control characters, ^O
 
 
 # 16 DLE - Data Link Escape
@@ -284,7 +284,7 @@ Data Link Escape
 <col>More<><col><l>https://en.wikipedia.org/wiki/Data_link_escape<><>
 <>
 @
-@ #10, 0x10, 00010000, control characters, ^P
+@ #10, 0x10, 00010000, 10000, control characters, ^P
 
 
 # 17 DC1 - Device Control 1 (often XON)
@@ -300,7 +300,7 @@ Device Control 1 (often XON)
 <col>More<><col><l>https://en.wikipedia.org/wiki/Device_Control_1<><>
 <>
 @
-@ #11, 0x11, 00010001, control characters, ^Q
+@ #11, 0x11, 00010001, 10001, control characters, ^Q
 
 
 # 18 DC2 - Device Control 2
@@ -316,7 +316,7 @@ Device Control 2
 <col>More<><col><l>https://en.wikipedia.org/wiki/Device_Control_2<><>
 <>
 @
-@ #12, 0x12, 00010010, control characters, ^R
+@ #12, 0x12, 00010010, 10010, control characters, ^R
 
 
 # 19 DC3 - Device Control 3 (often XOFF)
@@ -332,7 +332,7 @@ Device Control 3 (often XOFF)
 <col>More<><col><l>https://en.wikipedia.org/wiki/Device_Control_3<><>
 <>
 @
-@ #13, 0x13, 00010011, control characters, ^S
+@ #13, 0x13, 00010011, 10011, control characters, ^S
 
 
 # 20 DC4 - Device Control 4
@@ -348,7 +348,7 @@ Device Control 4
 <col>More<><col><l>https://en.wikipedia.org/wiki/Device_Control_4<><>
 <>
 @
-@ #14, 0x14, 00010100, control characters, ^T
+@ #14, 0x14, 00010100, 10100, control characters, ^T
 
 
 # 21 NAK - Negative Acknowledgement
@@ -364,7 +364,7 @@ Negative Acknowledgement
 <col>More<><col><l>https://en.wikipedia.org/wiki/Negative_acknowledge_character<><>
 <>
 @
-@ #15, 0x15, 00010101, control characters, ^U
+@ #15, 0x15, 00010101, 10101, control characters, ^U
 
 
 # 22 SYN - Synchronous Idle
@@ -380,7 +380,7 @@ Synchronous Idle
 <col>More<><col><l>https://en.wikipedia.org/wiki/Synchronous_idle<><>
 <>
 @
-@ #16, 0x16, 00010110, control characters, ^V
+@ #16, 0x16, 00010110, 10110, control characters, ^V
 
 
 # 23 ETB - End of Transmission Block
@@ -396,7 +396,7 @@ End of Transmission Block
 <col>More<><col><l>https://en.wikipedia.org/wiki/End_of_transmission_block<><>
 <>
 @
-@ #17, 0x17, 00010111, control characters, ^W
+@ #17, 0x17, 00010111, 10111, control characters, ^W
 
 
 # 24 CAN - Cancel
@@ -412,7 +412,7 @@ Cancel
 <col>More<><col><l>https://en.wikipedia.org/wiki/Cancel_character<><>
 <>
 @
-@ #18, 0x18, 00011000, control characters, ^X
+@ #18, 0x18, 00011000, 11000, control characters, ^X
 
 
 # 25 EM - End of Medium
@@ -428,7 +428,7 @@ End of Medium
 <col>More<><col><l>https://en.wikipedia.org/wiki/End_of_medium<><>
 <>
 @
-@ #19, 0x19, 00011001, control characters, ^Y
+@ #19, 0x19, 00011001, 11001, control characters, ^Y
 
 
 # 26 SUB - Substitute
@@ -444,7 +444,7 @@ Substitute
 <col>More<><col><l>https://en.wikipedia.org/wiki/Substitute_character<><>
 <>
 @
-@ #1A, 0x1A, 00011010, control characters, ^Z
+@ #1A, 0x1A, 00011010, 11010, control characters, ^Z
 
 
 # 27 ESC - Escape
@@ -460,7 +460,7 @@ Escape
 <col>More<><col><l>https://en.wikipedia.org/wiki/Escape_character<><>
 <>
 @
-@ #1B, 0x1B, 00011011, control characters, ^[
+@ #1B, 0x1B, 00011011, 11011, control characters, ^[
 
 
 # 28 FS - File Separator
@@ -476,7 +476,7 @@ File Separator
 <col>More<><col><l>https://en.wikipedia.org/wiki/File_separator<><>
 <>
 @
-@ #1C, 0x1C, 00011100, control characters, ^\
+@ #1C, 0x1C, 00011100, 11100, control characters, ^\
 
 
 # 29 GS - Group Separator
@@ -492,7 +492,7 @@ Group Separator
 <col>More<><col><l>https://en.wikipedia.org/wiki/Group_separator<><>
 <>
 @
-@ #1D, 0x1D, 00011101, control characters, ^]
+@ #1D, 0x1D, 00011101, 11101, control characters, ^]
 
 
 # 30 RS - Record Separator
@@ -508,7 +508,7 @@ Record Separator
 <col>More<><col><l>https://en.wikipedia.org/wiki/Record_separator<><>
 <>
 @
-@ #1E, 0x1E, 00011110, control characters, ^^
+@ #1E, 0x1E, 00011110, 11110, control characters, ^^
 
 
 # 31 US - Unit Separator
@@ -524,7 +524,7 @@ Unit Separator
 <col>More<><col><l>https://en.wikipedia.org/wiki/Unit_separator<><>
 <>
 @
-@ #1F, 0x1F, 00011111, control characters, ^_
+@ #1F, 0x1F, 00011111, 11111, control characters, ^_
 
 
 # 32   - Space
@@ -539,7 +539,7 @@ Space
 <col>More<><col><l>https://en.wikipedia.org/wiki/Whitespace_character<><>
 <>
 @
-@ #20, 0x20, 00100000
+@ #20, 0x20, 00100000, 100000
 
 
 # 33 ! - Exclamation Mark
@@ -555,7 +555,7 @@ Exclamation Point
 <col>More<><col><l>https://en.wikipedia.org/wiki/Exclamation_mark<><>
 <>
 @
-@ #21, 0x21, 00100001, punctuation, character-!, char-!, c-!, /!
+@ #21, 0x21, 00100001, 100001, punctuation, character-!, char-!, c-!, /!
 @ Exclamation Point
 
 
@@ -574,7 +574,7 @@ Inverted Commas
 <col>More<><col><l>https://en.wikipedia.org/wiki/Quotation_mark<><>
 <>
 @
-@ #22, 0x22, 00100010, punctuation, character-\", char-\", c-\", /\"
+@ #22, 0x22, 00100010, 100010, punctuation, character-\", char-\", c-\", /\"
 @ Quotes / Double Quote / Inverted Commas
 
 
@@ -592,7 +592,7 @@ Pound Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Number_sign<><>
 <>
 @
-@ #23, 0x23, 00100011, character-#, char-#, c-#, /#
+@ #23, 0x23, 00100011, 100011, character-#, char-#, c-#, /#
 @ Hash / Pound Sign
 
 
@@ -609,7 +609,7 @@ Peso Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Dollar_sign<><>
 <>
 @
-@ #24, 0x24, 00100100, currencies, currency, moneys, character-$, char-$, c-$, /$
+@ #24, 0x24, 00100100, 100100, currencies, currency, moneys, character-$, char-$, c-$, /$
 @ Peso Sign
 
 
@@ -625,7 +625,7 @@ Percent Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Percent_sign<><>
 <>
 @
-@ #25, 0x25, 00100101, character-%, char-%, c-%, /%
+@ #25, 0x25, 00100101, 100101, character-%, char-%, c-%, /%
 
 
 # 38 & - Ampersand
@@ -641,7 +641,7 @@ And Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Ampersand<><>
 <>
 @
-@ #26, 0x26, 00100110, character-&, char-&, c-&, /&
+@ #26, 0x26, 00100110, 100110, character-&, char-&, c-&, /&
 @ And Sign
 
 
@@ -658,7 +658,7 @@ Single Quote
 <col>More<><col><l>https://en.wikipedia.org/wiki/Apostrophe<><>
 <>
 @
-@ #27, 0x27, 00100111, punctuation, character-', char-', c-', /'
+@ #27, 0x27, 00100111, 100111, punctuation, character-', char-', c-', /'
 @ Single Quote
 
 
@@ -675,7 +675,7 @@ Round Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Parenthesis<><>
 <>
 @
-@ #28, 0x28, 00101000, punctuation, character-(, char-(, c-(, /(
+@ #28, 0x28, 00101000, 101000, punctuation, character-(, char-(, c-(, /(
 @ Round Bracket
 
 
@@ -692,7 +692,7 @@ Round Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Parenthesis<><>
 <>
 @
-@ #29, 0x29, 00101001, punctuation, character-), char-), c-), /)
+@ #29, 0x29, 00101001, 101001, punctuation, character-), char-), c-), /)
 @ Round Bracket
 
 
@@ -709,7 +709,7 @@ Star
 <col>More<><col><l>https://en.wikipedia.org/wiki/Asterisk<><>
 <>
 @
-@ #2A, 0x2A, 00101010, character-*, char-*, c-*, /*
+@ #2A, 0x2A, 00101010, 101010, character-*, char-*, c-*, /*
 @ Star
 
 
@@ -725,7 +725,7 @@ Plus Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Plus_sign<><>
 <>
 @
-@ #2B, 0x2B, 00101011, character-+, char-+, c-+, /+
+@ #2B, 0x2B, 00101011, 101011, character-+, char-+, c-+, /+
 
 
 # 44 , - Comma
@@ -740,7 +740,7 @@ Comma
 <col>More<><col><l>https://en.wikipedia.org/wiki/Comma<><>
 <>
 @
-@ #2C, 0x2C, 00101100, punctuation, character-_, char-_, c-_, /_
+@ #2C, 0x2C, 00101100, 101100, punctuation, character-_, char-_, c-_, /_
 
 
 # 45 - - Minus Sign
@@ -756,7 +756,7 @@ Dash
 <col>More<><col><l>https://en.wikipedia.org/wiki/Minus_sign<><>
 <>
 @
-@ #2D, 0x2D, 00101101, punctuation, character--, char--, c--, /-
+@ #2D, 0x2D, 00101101, 101101, punctuation, character--, char--, c--, /-
 @ Dash
 
 
@@ -774,7 +774,7 @@ Full Point
 <col>More<><col><l>https://en.wikipedia.org/wiki/Full_stop<><>
 <>
 @
-@ #2E, 0x2E, 00101110, punctuation, character-., char-., c-., /.
+@ #2E, 0x2E, 00101110, 101110, punctuation, character-., char-., c-., /.
 @ Full Stop / Full Point
 
 
@@ -792,7 +792,7 @@ Solidus (Unicode)
 <col>More<><col><l>https://en.wikipedia.org/wiki/Slash_(punctuation)<><>
 <>
 @
-@ #2F, 0x2F, 00101111, character-/, char-/, c-/, //
+@ #2F, 0x2F, 00101111, 101111, character-/, char-/, c-/, //
 @ Oblique Stroke / Solidus (Unicode)
 
 
@@ -809,7 +809,7 @@ Zero
 <col>More<><col><l>https://en.wikipedia.org/wiki/0<><>
 <>
 @
-@ #30, 0x30, 00110000, numbers, character-0, char-0, c-0, /0
+@ #30, 0x30, 00110000, 110000, numbers, character-0, char-0, c-0, /0
 @ Zero
 
 
@@ -826,7 +826,7 @@ One
 <col>More<><col><l>https://en.wikipedia.org/wiki/1<><>
 <>
 @
-@ #31, 0x31, 00110001, numbers, character-1, char-1, c-1, /1
+@ #31, 0x31, 00110001, 110001, numbers, character-1, char-1, c-1, /1
 @ One
 
 
@@ -843,7 +843,7 @@ Two
 <col>More<><col><l>https://en.wikipedia.org/wiki/2<><>
 <>
 @
-@ #32, 0x32, 00110010, numbers, character-2, char-2, c-2, /2
+@ #32, 0x32, 00110010, 110010, numbers, character-2, char-2, c-2, /2
 @ Two
 
 
@@ -860,7 +860,7 @@ Three
 <col>More<><col><l>https://en.wikipedia.org/wiki/3<><>
 <>
 @
-@ #33, 0x33, 00110011, numbers, character-3, char-3, c-3, /3
+@ #33, 0x33, 00110011, 110011, numbers, character-3, char-3, c-3, /3
 @ Three
 
 
@@ -877,7 +877,7 @@ Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/4<><>
 <>
 @
-@ #34, 0x34, 00110100, numbers, character-4, char-4, c-4, /4
+@ #34, 0x34, 00110100, 110100, numbers, character-4, char-4, c-4, /4
 @ Four
 
 
@@ -894,7 +894,7 @@ Five
 <col>More<><col><l>https://en.wikipedia.org/wiki/5<><>
 <>
 @
-@ #35, 0x35, 00110101, numbers, character-5, char-5, c-5, /5
+@ #35, 0x35, 00110101, 110101, numbers, character-5, char-5, c-5, /5
 @ Five
 
 
@@ -911,7 +911,7 @@ Six
 <col>More<><col><l>https://en.wikipedia.org/wiki/6<><>
 <>
 @
-@ #36, 0x36, 00110110, numbers, character-6, char-6, c-6, /6
+@ #36, 0x36, 00110110, 110110, numbers, character-6, char-6, c-6, /6
 @ Six
 
 
@@ -928,7 +928,7 @@ Seven
 <col>More<><col><l>https://en.wikipedia.org/wiki/7<><>
 <>
 @
-@ #37, 0x37, 00110111, numbers, character-7, char-7, c-7, /7
+@ #37, 0x37, 00110111, 110111, numbers, character-7, char-7, c-7, /7
 @ Seven
 
 
@@ -945,7 +945,7 @@ Eight
 <col>More<><col><l>https://en.wikipedia.org/wiki/8<><>
 <>
 @
-@ #38, 0x38, 00111000, numbers, character-8, char-8, c-8, /8
+@ #38, 0x38, 00111000, 111000, numbers, character-8, char-8, c-8, /8
 @ Eight
 
 
@@ -962,7 +962,7 @@ Nine
 <col>More<><col><l>https://en.wikipedia.org/wiki/9<><>
 <>
 @
-@ #39, 0x39, 00111001, numbers, character-9, char-9, c-9, /9
+@ #39, 0x39, 00111001, 111001, numbers, character-9, char-9, c-9, /9
 @ Nine
 
 
@@ -978,7 +978,7 @@ Colon
 <col>More<><col><l>https://en.wikipedia.org/wiki/Colon_(punctuation)<><>
 <>
 @
-@ #3A, 0x3A, 00111010, punctuation, character-:, char-:, c-:, /:
+@ #3A, 0x3A, 00111010, 111010, punctuation, character-:, char-:, c-:, /:
 
 
 # 59 ; - Semicolon
@@ -994,7 +994,7 @@ Semi-colon
 <col>More<><col><l>https://en.wikipedia.org/wiki/Semicolon<><>
 <>
 @
-@ #3B, 0x3B, 00111011, punctuation, character-;, char-;, c-;, /;
+@ #3B, 0x3B, 00111011, 111011, punctuation, character-;, char-;, c-;, /;
 @ Semi-colon
 
 
@@ -1011,7 +1011,7 @@ Left Angle Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Less-than_sign<><>
 <>
 @
-@ #3C, 0x3C, 00111100, character-<, char-<, c-<, /<
+@ #3C, 0x3C, 00111100, 111100, character-<, char-<, c-<, /<
 @ Left Angle Bracket
 
 
@@ -1027,7 +1027,7 @@ Equals Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Equals_sign<><>
 <>
 @
-@ #3D, 0x3D, 00111101, character-=, char-=, c-=, /=
+@ #3D, 0x3D, 00111101, 111101, character-=, char-=, c-=, /=
 
 
 # 62 > - Greater-Than Sign
@@ -1043,7 +1043,7 @@ Right Angle Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Greater-than_sign<><>
 <>
 @
-@ #3E, 0x3E, 00111110, character->, char->, c->, />
+@ #3E, 0x3E, 00111110, 111110, character->, char->, c->, />
 @ Right Angle Bracket
 
 
@@ -1059,7 +1059,7 @@ Question Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Question_mark<><>
 <>
 @
-@ #3F, 0x3F, 00111111, punctuation, character-?, char-?, c-?, /?
+@ #3F, 0x3F, 00111111, 111111, punctuation, character-?, char-?, c-?, /?
 
 
 # 64 @ - At Sign
@@ -1075,7 +1075,7 @@ At Symbol
 <col>More<><col><l>https://en.wikipedia.org/wiki/@<><>
 <>
 @
-@ #40, 0x40, 01000000, character-@, char-@, c-@, /@
+@ #40, 0x40, 01000000, 1000000, character-@, char-@, c-@, /@
 @ At Symbol
 
 
@@ -1091,7 +1091,7 @@ Upper Case A
 <col>More<><col><l>https://en.wikipedia.org/wiki/A<><>
 <>
 @
-@ #41, 0x41, 01000001, base-a, b-a, vowels, alphabet, letters, character-A, char-A, c-A, /A
+@ #41, 0x41, 01000001, 1000001, base-a, -a, vowels, alphabet, letters, character-A, char-A, c-A, /A
 
 
 # 66 B - Upper Case B
@@ -1106,7 +1106,7 @@ Upper Case B
 <col>More<><col><l>https://en.wikipedia.org/wiki/B<><>
 <>
 @
-@ #42, 0x42, 01000010, alphabet, letters, character-B, char-B, c-B, /B
+@ #42, 0x42, 01000010, 1000010, alphabet, letters, character-B, char-B, c-B, /B
 
 
 # 67 C - Upper Case C
@@ -1121,7 +1121,7 @@ Upper Case C
 <col>More<><col><l>https://en.wikipedia.org/wiki/C<><>
 <>
 @
-@ #43, 0x43, 01000011, alphabet, letters, character-C, char-C, c-C, /C
+@ #43, 0x43, 01000011, 1000011, alphabet, letters, character-C, char-C, c-C, /C
 
 
 # 68 D - Upper Case D
@@ -1136,7 +1136,7 @@ Upper Case D
 <col>More<><col><l>https://en.wikipedia.org/wiki/D<><>
 <>
 @
-@ #44, 0x44, 01000100, alphabet, letters, character-D, char-D, c-D, /D
+@ #44, 0x44, 01000100, 1000100, alphabet, letters, character-D, char-D, c-D, /D
 
 
 # 69 E - Upper Case E
@@ -1151,7 +1151,7 @@ Upper Case E
 <col>More<><col><l>https://en.wikipedia.org/wiki/E<><>
 <>
 @
-@ #45, 0x45, 01000101, base-e, b-e, vowels, alphabet, letters, character-E, char-E, c-E, /E
+@ #45, 0x45, 01000101, 1000101, base-e, -e, vowels, alphabet, letters, character-E, char-E, c-E, /E
 
 
 # 70 F - Upper Case F
@@ -1166,7 +1166,7 @@ Upper Case F
 <col>More<><col><l>https://en.wikipedia.org/wiki/F<><>
 <>
 @
-@ #46, 0x46, 01000110, alphabet, letters, character-F, char-F, c-F, /F
+@ #46, 0x46, 01000110, 1000110, alphabet, letters, character-F, char-F, c-F, /F
 
 
 # 71 G - Upper Case G
@@ -1181,7 +1181,7 @@ Upper Case G
 <col>More<><col><l>https://en.wikipedia.org/wiki/G<><>
 <>
 @
-@ #47, 0x47, 01000111, alphabet, letters, character-G, char-G, c-G, /G
+@ #47, 0x47, 01000111, 1000111, alphabet, letters, character-G, char-G, c-G, /G
 
 
 # 72 H - Upper Case H
@@ -1196,7 +1196,7 @@ Upper Case H
 <col>More<><col><l>https://en.wikipedia.org/wiki/H<><>
 <>
 @
-@ #48, 0x48, 01001000, alphabet, letters, character-H, char-H, c-H, /H
+@ #48, 0x48, 01001000, 1001000, alphabet, letters, character-H, char-H, c-H, /H
 
 
 # 73 I - Upper Case I
@@ -1211,7 +1211,7 @@ Upper Case I
 <col>More<><col><l>https://en.wikipedia.org/wiki/I<><>
 <>
 @
-@ #49, 0x49, 01001001, base-i, b-i, vowels, alphabet, letters, character-I, char-I, c-I, /I
+@ #49, 0x49, 01001001, 1001001, base-i, -i, vowels, alphabet, letters, character-I, char-I, c-I, /I
 
 
 # 74 J - Upper Case J
@@ -1226,7 +1226,7 @@ Upper Case J
 <col>More<><col><l>https://en.wikipedia.org/wiki/J<><>
 <>
 @
-@ #4A, 0x4A, 01001010, alphabet, letters, character-J, char-J, c-J, /J
+@ #4A, 0x4A, 01001010, 1001010, alphabet, letters, character-J, char-J, c-J, /J
 
 
 # 75 K - Upper Case K
@@ -1241,7 +1241,7 @@ Upper Case K
 <col>More<><col><l>https://en.wikipedia.org/wiki/K<><>
 <>
 @
-@ #4B, 0x4B, 01001011, alphabet, letters, character-K, char-K, c-K, /K
+@ #4B, 0x4B, 01001011, 1001011, alphabet, letters, character-K, char-K, c-K, /K
 
 
 # 76 L - Upper Case L
@@ -1256,7 +1256,7 @@ Upper Case L
 <col>More<><col><l>https://en.wikipedia.org/wiki/L<><>
 <>
 @
-@ #4C, 0x4C, 01001100, alphabet, letters, character-L, char-L, c-L, /L
+@ #4C, 0x4C, 01001100, 1001100, alphabet, letters, character-L, char-L, c-L, /L
 
 
 # 77 M - Upper Case M
@@ -1271,7 +1271,7 @@ Upper Case M
 <col>More<><col><l>https://en.wikipedia.org/wiki/M<><>
 <>
 @
-@ #4D, 0x4D, 01001101, alphabet, letters, character-M, char-M, c-M, /M
+@ #4D, 0x4D, 01001101, 1001101, alphabet, letters, character-M, char-M, c-M, /M
 
 
 # 78 N - Upper Case N
@@ -1286,7 +1286,7 @@ Upper Case N
 <col>More<><col><l>https://en.wikipedia.org/wiki/N<><>
 <>
 @
-@ #4E, 0x4E, 01001110, alphabet, letters, character-N, char-N, c-N, /N
+@ #4E, 0x4E, 01001110, 1001110, alphabet, letters, character-N, char-N, c-N, /N
 
 
 # 79 O - Upper Case O
@@ -1301,7 +1301,7 @@ Upper Case O
 <col>More<><col><l>https://en.wikipedia.org/wiki/O<><>
 <>
 @
-@ #4F, 0x4F, 01001111, base-o, b-o, vowels, alphabet, letters, character-O, char-O, c-O, /O
+@ #4F, 0x4F, 01001111, 1001111, base-o, -o, vowels, alphabet, letters, character-O, char-O, c-O, /O
 
 
 # 80 P - Upper Case P
@@ -1316,7 +1316,7 @@ Upper Case P
 <col>More<><col><l>https://en.wikipedia.org/wiki/P<><>
 <>
 @
-@ #50, 0x50, 01010000, alphabet, letters, character-P, char-P, c-P, /P
+@ #50, 0x50, 01010000, 1010000, alphabet, letters, character-P, char-P, c-P, /P
 
 
 # 81 Q - Upper Case Q
@@ -1331,7 +1331,7 @@ Upper Case Q
 <col>More<><col><l>https://en.wikipedia.org/wiki/Q<><>
 <>
 @
-@ #51, 0x51, 01010001, alphabet, letters, character-Q, char-Q, c-Q, /Q
+@ #51, 0x51, 01010001, 1010001, alphabet, letters, character-Q, char-Q, c-Q, /Q
 
 
 # 82 R - Upper Case R
@@ -1346,7 +1346,7 @@ Upper Case R
 <col>More<><col><l>https://en.wikipedia.org/wiki/R<><>
 <>
 @
-@ #52, 0x52, 01010010, alphabet, letters, character-R, char-R, c-R, /R
+@ #52, 0x52, 01010010, 1010010, alphabet, letters, character-R, char-R, c-R, /R
 
 
 # 83 S - Upper Case S
@@ -1361,7 +1361,7 @@ Upper Case S
 <col>More<><col><l>https://en.wikipedia.org/wiki/S<><>
 <>
 @
-@ #53, 0x53, 01010011, alphabet, letters, character-S, char-S, c-S, /S
+@ #53, 0x53, 01010011, 1010011, alphabet, letters, character-S, char-S, c-S, /S
 
 
 # 84 T - Upper Case T
@@ -1376,7 +1376,7 @@ Upper Case T
 <col>More<><col><l>https://en.wikipedia.org/wiki/T<><>
 <>
 @
-@ #54, 0x54, 01010100, alphabet, letters, character-T, char-T, c-T, /T
+@ #54, 0x54, 01010100, 1010100, alphabet, letters, character-T, char-T, c-T, /T
 
 
 # 85 U - Upper Case U
@@ -1391,7 +1391,7 @@ Upper Case U
 <col>More<><col><l>https://en.wikipedia.org/wiki/U<><>
 <>
 @
-@ #55, 0x55, 01010101, base-u, b-u, vowels, alphabet, letters, character-U, char-U, c-U, /U
+@ #55, 0x55, 01010101, 1010101, base-u, -u, vowels, alphabet, letters, character-U, char-U, c-U, /U
 
 
 # 86 V - Upper Case V
@@ -1406,7 +1406,7 @@ Upper Case V
 <col>More<><col><l>https://en.wikipedia.org/wiki/V<><>
 <>
 @
-@ #56, 0x56, 01010110, alphabet, letters, character-V, char-V, c-V, /V
+@ #56, 0x56, 01010110, 1010110, alphabet, letters, character-V, char-V, c-V, /V
 
 
 # 87 W - Upper Case W
@@ -1421,7 +1421,7 @@ Upper Case W
 <col>More<><col><l>https://en.wikipedia.org/wiki/W<><>
 <>
 @
-@ #57, 0x57, 01010111, alphabet, letters, character-W, char-W, c-W, /W
+@ #57, 0x57, 01010111, 1010111, alphabet, letters, character-W, char-W, c-W, /W
 
 
 # 88 X - Upper Case X
@@ -1436,7 +1436,7 @@ Upper Case X
 <col>More<><col><l>https://en.wikipedia.org/wiki/X<><>
 <>
 @
-@ #58, 0x58, 01011000, alphabet, letters, character-X, char-X, c-X, /X
+@ #58, 0x58, 01011000, 1011000, alphabet, letters, character-X, char-X, c-X, /X
 
 
 # 89 Y - Upper Case Y
@@ -1451,7 +1451,7 @@ Upper Case Y
 <col>More<><col><l>https://en.wikipedia.org/wiki/Y<><>
 <>
 @
-@ #59, 0x59, 01011001, base-y, b-y, alphabet, letters, character-Y, char-Y, c-Y, /Y
+@ #59, 0x59, 01011001, 1011001, base-y, -y, alphabet, letters, character-Y, char-Y, c-Y, /Y
 
 
 # 90 Z - Upper Case Z
@@ -1466,7 +1466,7 @@ Upper Case Z
 <col>More<><col><l>https://en.wikipedia.org/wiki/Z<><>
 <>
 @
-@ #5A, 0x5A, 01011010, alphabet, letters, character-Z, char-Z, c-Z, /Z
+@ #5A, 0x5A, 01011010, 1011010, alphabet, letters, character-Z, char-Z, c-Z, /Z
 
 
 # 91 [ - Left Square Bracket
@@ -1481,7 +1481,7 @@ Left Square Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Square_brackets<><>
 <>
 @
-@ #5B, 0x5B, 01011011, punctuation, character-[, char-[, c-[, /[
+@ #5B, 0x5B, 01011011, 1011011, punctuation, character-[, char-[, c-[, /[
 
 
 # 92 \\ - Backslash
@@ -1497,7 +1497,7 @@ Reverse Slash
 <col>More<><col><l>https://en.wikipedia.org/wiki/Backslash<><>
 <>
 @
-@ #5C, 0x5C, 01011100, \\\\, character-\\, char-\\, c-\\, /\\
+@ #5C, 0x5C, 01011100, 1011100, \\\\, character-\\, char-\\, c-\\, /\\
 @ Reverse Slash
 
 
@@ -1513,7 +1513,7 @@ Right Square Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Square_brackets<><>
 <>
 @
-@ #5D, 0x5D, 01011101, punctuation, character-], char-], c-], /]
+@ #5D, 0x5D, 01011101, 1011101, punctuation, character-], char-], c-], /]
 
 
 # 94 ^ - Caret
@@ -1528,7 +1528,7 @@ Caret
 <col>More<><col><l>https://en.wikipedia.org/wiki/Caret<><>
 <>
 @
-@ #5E, 0x5E, 01011110, diacritics, accents, character-^, char-^, c-^, /^
+@ #5E, 0x5E, 01011110, 1011110, diacritics, accents, character-^, char-^, c-^, /^
 
 
 # 95 _ - Underscore
@@ -1545,7 +1545,7 @@ Low Line
 <col>More<><col><l>https://en.wikipedia.org/wiki/Underscore<><>
 <>
 @
-@ #5F, 0x5F, 01011111, character-_, char-_, c-_, /_
+@ #5F, 0x5F, 01011111, 1011111, character-_, char-_, c-_, /_
 @ Underline / Low Line
 
 
@@ -1561,7 +1561,7 @@ Grave Accent
 <col>More<><col><l>https://en.wikipedia.org/wiki/Grave_accent<><>
 <>
 @
-@ #60, 0x60, 01100000, diacritics, accents, character-`, char-`, c-`, /`
+@ #60, 0x60, 01100000, 1100000, diacritics, accents, character-`, char-`, c-`, /`
 
 
 # 97 a - Lower Case A
@@ -1576,7 +1576,7 @@ Lower Case A
 <col>More<><col><l>https://en.wikipedia.org/wiki/A<><>
 <>
 @
-@ #61, 0x61, 01100001, base-a, b-a, vowels, alphabet, letters, character-a, char-a, c-a, /a
+@ #61, 0x61, 01100001, 1100001, base-a, -a, vowels, alphabet, letters, character-a, char-a, c-a, /a
 
 
 # 98 b - Lower Case B
@@ -1591,7 +1591,7 @@ Lower Case B
 <col>More<><col><l>https://en.wikipedia.org/wiki/B<><>
 <>
 @
-@ #62, 0x62, 01100010, alphabet, letters, character-b, char-b, c-b, /b
+@ #62, 0x62, 01100010, 1100010, alphabet, letters, character-b, char-b, c-b, /b
 
 
 # 99 c - Lower Case C
@@ -1606,7 +1606,7 @@ Lower Case C
 <col>More<><col><l>https://en.wikipedia.org/wiki/C<><>
 <>
 @
-@ #63, 0x63, 01100011, alphabet, letters, character-c, char-c, c-c, /c
+@ #63, 0x63, 01100011, 1100011, alphabet, letters, character-c, char-c, c-c, /c
 
 
 # 100 d - Lower Case D
@@ -1621,7 +1621,7 @@ Lower Case D
 <col>More<><col><l>https://en.wikipedia.org/wiki/D<><>
 <>
 @
-@ #64, 0x64, 01100100, alphabet, letters, character-d, char-d, c-d, /d
+@ #64, 0x64, 01100100, 1100100, alphabet, letters, character-d, char-d, c-d, /d
 
 
 # 101 e - Lower Case E
@@ -1636,7 +1636,7 @@ Lower Case E
 <col>More<><col><l>https://en.wikipedia.org/wiki/E<><>
 <>
 @
-@ #65, 0x65, 01100101, base-e, b-e, vowels, alphabet, letters, character-e, char-e, c-e, /e
+@ #65, 0x65, 01100101, 1100101, base-e, -e, vowels, alphabet, letters, character-e, char-e, c-e, /e
 
 
 # 102 f - Lower Case F
@@ -1651,7 +1651,7 @@ Lower Case F
 <col>More<><col><l>https://en.wikipedia.org/wiki/F<><>
 <>
 @
-@ #66, 0x66, 01100110, alphabet, letters, character-f, char-f, c-f, /f
+@ #66, 0x66, 01100110, 1100110, alphabet, letters, character-f, char-f, c-f, /f
 
 
 # 103 g - Lower Case G
@@ -1666,7 +1666,7 @@ Lower Case G
 <col>More<><col><l>https://en.wikipedia.org/wiki/G<><>
 <>
 @
-@ #67, 0x67, 01100111, alphabet, letters, character-g, char-g, c-g, /g
+@ #67, 0x67, 01100111, 1100111, alphabet, letters, character-g, char-g, c-g, /g
 
 
 # 104 h - Lower Case H
@@ -1681,7 +1681,7 @@ Lower Case H
 <col>More<><col><l>https://en.wikipedia.org/wiki/H<><>
 <>
 @
-@ #68, 0x68, 01101000, alphabet, letters, character-h, char-h, c-h, /h
+@ #68, 0x68, 01101000, 1101000, alphabet, letters, character-h, char-h, c-h, /h
 
 
 # 105 i - Lower Case I
@@ -1696,7 +1696,7 @@ Lower Case I
 <col>More<><col><l>https://en.wikipedia.org/wiki/I<><>
 <>
 @
-@ #69, 0x69, 01101001, base-i, b-i, vowels, alphabet, letters, character-i, char-i, c-i, /i
+@ #69, 0x69, 01101001, 1101001, base-i, -i, vowels, alphabet, letters, character-i, char-i, c-i, /i
 
 
 # 106 j - Lower Case J
@@ -1711,7 +1711,7 @@ Lower Case J
 <col>More<><col><l>https://en.wikipedia.org/wiki/J<><>
 <>
 @
-@ #6A, 0x6A, 01101010, alphabet, letters, character-j, char-j, c-j, /j
+@ #6A, 0x6A, 01101010, 1101010, alphabet, letters, character-j, char-j, c-j, /j
 
 
 # 107 k - Lower Case K
@@ -1726,7 +1726,7 @@ Lower Case K
 <col>More<><col><l>https://en.wikipedia.org/wiki/K<><>
 <>
 @
-@ #6B, 0x6B, 01101011, alphabet, letters, character-k, char-k, c-k, /k
+@ #6B, 0x6B, 01101011, 1101011, alphabet, letters, character-k, char-k, c-k, /k
 
 
 # 108 l - Lower Case L
@@ -1741,7 +1741,7 @@ Lower Case L
 <col>More<><col><l>https://en.wikipedia.org/wiki/L<><>
 <>
 @
-@ #6C, 0x6C, 01101100, alphabet, letters, character-l, char-l, c-l, /l
+@ #6C, 0x6C, 01101100, 1101100, alphabet, letters, character-l, char-l, c-l, /l
 
 
 # 109 m - Lower Case M
@@ -1756,7 +1756,7 @@ Lower Case M
 <col>More<><col><l>https://en.wikipedia.org/wiki/M<><>
 <>
 @
-@ #6D, 0x6D, 01101101, alphabet, letters, character-m, char-m, c-m, /m
+@ #6D, 0x6D, 01101101, 1101101, alphabet, letters, character-m, char-m, c-m, /m
 
 
 # 110 n - Lower Case N
@@ -1771,7 +1771,7 @@ Lower Case N
 <col>More<><col><l>https://en.wikipedia.org/wiki/N<><>
 <>
 @
-@ #6E, 0x6E, 01101110, alphabet, letters, character-n, char-n, c-n, /n
+@ #6E, 0x6E, 01101110, 1101110, alphabet, letters, character-n, char-n, c-n, /n
 
 
 # 111 o - Lower Case O
@@ -1786,7 +1786,7 @@ Lower Case O
 <col>More<><col><l>https://en.wikipedia.org/wiki/O<><>
 <>
 @
-@ #6F, 0x6F, 01101111, base-o, b-o, vowels, alphabet, letters, character-o, char-o, c-o, /o
+@ #6F, 0x6F, 01101111, 1101111, base-o, -o, vowels, alphabet, letters, character-o, char-o, c-o, /o
 
 
 # 112 p - Lower Case P
@@ -1801,7 +1801,7 @@ Lower Case P
 <col>More<><col><l>https://en.wikipedia.org/wiki/P<><>
 <>
 @
-@ #70, 0x70, 01110000, alphabet, letters, character-p, char-p, c-p, /p
+@ #70, 0x70, 01110000, 1110000, alphabet, letters, character-p, char-p, c-p, /p
 
 
 # 113 q - Lower Case Q
@@ -1816,7 +1816,7 @@ Lower Case Q
 <col>More<><col><l>https://en.wikipedia.org/wiki/Q<><>
 <>
 @
-@ #71, 0x71, 01110001, alphabet, letters, character-q, char-q, c-q, /q
+@ #71, 0x71, 01110001, 1110001, alphabet, letters, character-q, char-q, c-q, /q
 
 
 # 114 r - Lower Case R
@@ -1831,7 +1831,7 @@ Lower Case R
 <col>More<><col><l>https://en.wikipedia.org/wiki/R<><>
 <>
 @
-@ #72, 0x72, 01110010, alphabet, letters, character-r, char-r, c-r, /r
+@ #72, 0x72, 01110010, 1110010, alphabet, letters, character-r, char-r, c-r, /r
 
 
 # 115 s - Lower Case S
@@ -1846,7 +1846,7 @@ Lower Case S
 <col>More<><col><l>https://en.wikipedia.org/wiki/S<><>
 <>
 @
-@ #73, 0x73, 01110011, alphabet, letters, character-s, char-s, c-s, /s
+@ #73, 0x73, 01110011, 1110011, alphabet, letters, character-s, char-s, c-s, /s
 
 
 # 116 t - Lower Case T
@@ -1861,7 +1861,7 @@ Lower Case T
 <col>More<><col><l>https://en.wikipedia.org/wiki/T<><>
 <>
 @
-@ #74, 0x74, 01110100, alphabet, letters, character-t, char-t, c-t, /t
+@ #74, 0x74, 01110100, 1110100, alphabet, letters, character-t, char-t, c-t, /t
 
 
 # 117 u - Lower Case U
@@ -1876,7 +1876,7 @@ Lower Case U
 <col>More<><col><l>https://en.wikipedia.org/wiki/U<><>
 <>
 @
-@ #75, 0x75, 01110101, base-u, b-u, vowels, alphabet, letters, character-u, char-u, c-u, /u
+@ #75, 0x75, 01110101, 1110101, base-u, -u, vowels, alphabet, letters, character-u, char-u, c-u, /u
 
 
 # 118 v - Lower Case V
@@ -1891,7 +1891,7 @@ Lower Case V
 <col>More<><col><l>https://en.wikipedia.org/wiki/V<><>
 <>
 @
-@ #76, 0x76, 01110110, alphabet, letters, character-v, char-v, c-v, /v
+@ #76, 0x76, 01110110, 1110110, alphabet, letters, character-v, char-v, c-v, /v
 
 
 # 119 w - Lower Case W
@@ -1906,7 +1906,7 @@ Lower Case W
 <col>More<><col><l>https://en.wikipedia.org/wiki/W<><>
 <>
 @
-@ #77, 0x77, 01110111, alphabet, letters, character-w, char-w, c-w, /w
+@ #77, 0x77, 01110111, 1110111, alphabet, letters, character-w, char-w, c-w, /w
 
 
 # 120 x - Lower Case X
@@ -1921,7 +1921,7 @@ Lower Case X
 <col>More<><col><l>https://en.wikipedia.org/wiki/X<><>
 <>
 @
-@ #78, 0x78, 01111000, alphabet, letters, character-x, char-x, c-x, /x
+@ #78, 0x78, 01111000, 1111000, alphabet, letters, character-x, char-x, c-x, /x
 
 
 # 121 y - Lower Case Y
@@ -1936,7 +1936,7 @@ Lower Case Y
 <col>More<><col><l>https://en.wikipedia.org/wiki/Y<><>
 <>
 @
-@ #79, 0x79, 01111001, base-y, b-y, alphabet, letters, character-y, char-y, c-y, /y
+@ #79, 0x79, 01111001, 1111001, base-y, -y, alphabet, letters, character-y, char-y, c-y, /y
 
 
 # 122 z - Lower Case Z
@@ -1951,7 +1951,7 @@ Lower Case Z
 <col>More<><col><l>https://en.wikipedia.org/wiki/Z<><>
 <>
 @
-@ #7A, 0x7A, 01111010, alphabet, letters, character-z, char-z, c-z, /z
+@ #7A, 0x7A, 01111010, 1111010, alphabet, letters, character-z, char-z, c-z, /z
 
 
 # 123 { - Left Bracket
@@ -1968,7 +1968,7 @@ Braces
 <col>More<><col><l>https://en.wikipedia.org/wiki/Curly_brackets<><>
 <>
 @
-@ #7B, 0x7B, 01111011, punctuation, character-{, char-{, c-{, /{
+@ #7B, 0x7B, 01111011, 1111011, punctuation, character-{, char-{, c-{, /{
 @ Left Curly Brackets / Braces
 
 
@@ -1985,7 +1985,7 @@ Pipe
 <col>More<><col><l>https://en.wikipedia.org/wiki/Vertical_bar<><>
 <>
 @
-@ #7C, 0x7C, 01111100, character-|, char-|, c-|, /|
+@ #7C, 0x7C, 01111100, 1111100, character-|, char-|, c-|, /|
 @ Pipe
 
 
@@ -2003,7 +2003,7 @@ Braces
 <col>More<><col><l>https://en.wikipedia.org/wiki/Curly_brackets<><>
 <>
 @
-@ #7D, 0x7D, 01111101, punctuation, character-}, char-}, c-}, /}
+@ #7D, 0x7D, 01111101, 1111101, punctuation, character-}, char-}, c-}, /}
 @ Right Curly Brackets / Braces
 
 
@@ -2019,7 +2019,7 @@ Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/Tilde<><>
 <>
 @
-@ #7E, 0x7E, 01111110, diacritics, accents, character-~, char-~, c-~, /~
+@ #7E, 0x7E, 01111110, 1111110, diacritics, accents, character-~, char-~, c-~, /~
 
 
 # 127 DEL - Delete
@@ -2035,25 +2035,19 @@ Delete
 <col>More<><col><l>https://en.wikipedia.org/wiki/Delete_character<><>
 <>
 @
-@ #7F, 0x7F, 01111111, control characters, ^?
+@ #7F, 0x7F, 01111111, 1111111, control characters, ^?
 
 
-# 128 - Non-breaking Space
+# 128
 
-Non-breaking Space
-Required Space
-NBSP
 
 <table><col>Character<><col><>
 <col>Decimal<><col><c>128<><>
 <col>Hex<><col><c>80<><>
 <col>Bin<><col><c>10000000<><>
-<col> <>
-<col>More<><col><l>https://en.wikipedia.org/wiki/Non-breaking_space<><>
 <>
 @
-@ #80, 0x80, 10000000, character-, char-, c-, /
-@ Required Space / NBSP
+@ #80, 0x80, 10000000, 10000000
 
 
 # 129
@@ -2065,7 +2059,7 @@ NBSP
 <col>Bin<><col><c>10000001<><>
 <>
 @
-@ #81, 0x81, 10000001
+@ #81, 0x81, 10000001, 10000001
 
 
 # 130
@@ -2077,7 +2071,7 @@ NBSP
 <col>Bin<><col><c>10000010<><>
 <>
 @
-@ #82, 0x82, 10000010
+@ #82, 0x82, 10000010, 10000010
 
 
 # 131
@@ -2089,7 +2083,7 @@ NBSP
 <col>Bin<><col><c>10000011<><>
 <>
 @
-@ #83, 0x83, 10000011
+@ #83, 0x83, 10000011, 10000011
 
 
 # 132
@@ -2101,7 +2095,7 @@ NBSP
 <col>Bin<><col><c>10000100<><>
 <>
 @
-@ #84, 0x84, 10000100
+@ #84, 0x84, 10000100, 10000100
 
 
 # 133
@@ -2113,7 +2107,7 @@ NBSP
 <col>Bin<><col><c>10000101<><>
 <>
 @
-@ #85, 0x85, 10000101
+@ #85, 0x85, 10000101, 10000101
 
 
 # 134
@@ -2125,7 +2119,7 @@ NBSP
 <col>Bin<><col><c>10000110<><>
 <>
 @
-@ #86, 0x86, 10000110
+@ #86, 0x86, 10000110, 10000110
 
 
 # 135
@@ -2137,7 +2131,7 @@ NBSP
 <col>Bin<><col><c>10000111<><>
 <>
 @
-@ #87, 0x87, 10000111
+@ #87, 0x87, 10000111, 10000111
 
 
 # 136
@@ -2149,7 +2143,7 @@ NBSP
 <col>Bin<><col><c>10001000<><>
 <>
 @
-@ #88, 0x88, 10001000
+@ #88, 0x88, 10001000, 10001000
 
 
 # 137
@@ -2161,7 +2155,7 @@ NBSP
 <col>Bin<><col><c>10001001<><>
 <>
 @
-@ #89, 0x89, 10001001
+@ #89, 0x89, 10001001, 10001001
 
 
 # 138
@@ -2173,7 +2167,7 @@ NBSP
 <col>Bin<><col><c>10001010<><>
 <>
 @
-@ #8A, 0x8A, 10001010
+@ #8A, 0x8A, 10001010, 10001010
 
 
 # 139
@@ -2185,7 +2179,7 @@ NBSP
 <col>Bin<><col><c>10001011<><>
 <>
 @
-@ #8B, 0x8B, 10001011
+@ #8B, 0x8B, 10001011, 10001011
 
 
 # 140
@@ -2197,7 +2191,7 @@ NBSP
 <col>Bin<><col><c>10001100<><>
 <>
 @
-@ #8C, 0x8C, 10001100
+@ #8C, 0x8C, 10001100, 10001100
 
 
 # 141
@@ -2209,7 +2203,7 @@ NBSP
 <col>Bin<><col><c>10001101<><>
 <>
 @
-@ #8D, 0x8D, 10001101
+@ #8D, 0x8D, 10001101, 10001101
 
 
 # 142
@@ -2221,7 +2215,7 @@ NBSP
 <col>Bin<><col><c>10001110<><>
 <>
 @
-@ #8E, 0x8E, 10001110
+@ #8E, 0x8E, 10001110, 10001110
 
 
 # 143
@@ -2233,7 +2227,7 @@ NBSP
 <col>Bin<><col><c>10001111<><>
 <>
 @
-@ #8F, 0x8F, 10001111
+@ #8F, 0x8F, 10001111, 10001111
 
 
 # 144
@@ -2245,7 +2239,7 @@ NBSP
 <col>Bin<><col><c>10010000<><>
 <>
 @
-@ #90, 0x90, 10010000
+@ #90, 0x90, 10010000, 10010000
 
 
 # 145
@@ -2257,7 +2251,7 @@ NBSP
 <col>Bin<><col><c>10010001<><>
 <>
 @
-@ #91, 0x91, 10010001
+@ #91, 0x91, 10010001, 10010001
 
 
 # 146
@@ -2269,7 +2263,7 @@ NBSP
 <col>Bin<><col><c>10010010<><>
 <>
 @
-@ #92, 0x92, 10010010
+@ #92, 0x92, 10010010, 10010010
 
 
 # 147
@@ -2281,7 +2275,7 @@ NBSP
 <col>Bin<><col><c>10010011<><>
 <>
 @
-@ #93, 0x93, 10010011
+@ #93, 0x93, 10010011, 10010011
 
 
 # 148
@@ -2293,7 +2287,7 @@ NBSP
 <col>Bin<><col><c>10010100<><>
 <>
 @
-@ #94, 0x94, 10010100
+@ #94, 0x94, 10010100, 10010100
 
 
 # 149
@@ -2305,7 +2299,7 @@ NBSP
 <col>Bin<><col><c>10010101<><>
 <>
 @
-@ #95, 0x95, 10010101
+@ #95, 0x95, 10010101, 10010101
 
 
 # 150
@@ -2317,7 +2311,7 @@ NBSP
 <col>Bin<><col><c>10010110<><>
 <>
 @
-@ #96, 0x96, 10010110
+@ #96, 0x96, 10010110, 10010110
 
 
 # 151
@@ -2329,7 +2323,7 @@ NBSP
 <col>Bin<><col><c>10010111<><>
 <>
 @
-@ #97, 0x97, 10010111
+@ #97, 0x97, 10010111, 10010111
 
 
 # 152
@@ -2341,7 +2335,7 @@ NBSP
 <col>Bin<><col><c>10011000<><>
 <>
 @
-@ #98, 0x98, 10011000
+@ #98, 0x98, 10011000, 10011000
 
 
 # 153
@@ -2353,7 +2347,7 @@ NBSP
 <col>Bin<><col><c>10011001<><>
 <>
 @
-@ #99, 0x99, 10011001
+@ #99, 0x99, 10011001, 10011001
 
 
 # 154
@@ -2365,7 +2359,7 @@ NBSP
 <col>Bin<><col><c>10011010<><>
 <>
 @
-@ #9A, 0x9A, 10011010
+@ #9A, 0x9A, 10011010, 10011010
 
 
 # 155
@@ -2377,7 +2371,7 @@ NBSP
 <col>Bin<><col><c>10011011<><>
 <>
 @
-@ #9B, 0x9B, 10011011
+@ #9B, 0x9B, 10011011, 10011011
 
 
 # 156
@@ -2389,7 +2383,7 @@ NBSP
 <col>Bin<><col><c>10011100<><>
 <>
 @
-@ #9C, 0x9C, 10011100
+@ #9C, 0x9C, 10011100, 10011100
 
 
 # 157
@@ -2401,7 +2395,7 @@ NBSP
 <col>Bin<><col><c>10011101<><>
 <>
 @
-@ #9D, 0x9D, 10011101
+@ #9D, 0x9D, 10011101, 10011101
 
 
 # 158
@@ -2413,7 +2407,7 @@ NBSP
 <col>Bin<><col><c>10011110<><>
 <>
 @
-@ #9E, 0x9E, 10011110
+@ #9E, 0x9E, 10011110, 10011110
 
 
 # 159
@@ -2425,19 +2419,26 @@ NBSP
 <col>Bin<><col><c>10011111<><>
 <>
 @
-@ #9F, 0x9F, 10011111
+@ #9F, 0x9F, 10011111, 10011111
 
 
-# 160
+# 160   - &nbsp;
 
+&nbsp;
+Non-breaking Space
+Required Space
+NBSP
 
 <table><col>Character<><col> <>
 <col>Decimal<><col><c>160<><>
 <col>Hex<><col><c>A0<><>
 <col>Bin<><col><c>10100000<><>
+<col> <>
+<col>More<><col><l>https://en.wikipedia.org/wiki/Non-breaking_space<><>
 <>
 @
-@ #A0, 0xA0, 10100000
+@ #A0, 0xA0, 10100000, 10100000, character-&nbsp;, char-&nbsp;, c-&nbsp;, /&nbsp;
+@ Non-breaking Space / Required Space / NBSP
 
 
 # 161 ¡ - Inverted Exclamation Mark
@@ -2452,7 +2453,7 @@ Inverted Exclamation Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Inverted_question_and_exclamation_marks<><>
 <>
 @
-@ #A1, 0xA1, 10100001, character-¡, char-¡, c-¡, /¡
+@ #A1, 0xA1, 10100001, 10100001, character-¡, char-¡, c-¡, /¡
 
 
 # 162 ¢ - Cent
@@ -2467,7 +2468,7 @@ Cent
 <col>More<><col><l>https://en.wikipedia.org/wiki/Cent_(currency)<><>
 <>
 @
-@ #A2, 0xA2, 10100010, currencies, currency, moneys, character-¢, char-¢, c-¢, /¢
+@ #A2, 0xA2, 10100010, 10100010, currencies, currency, moneys, character-¢, char-¢, c-¢, /¢
 
 
 # 163 £ - Pound Sign
@@ -2482,7 +2483,7 @@ Pound Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Pound_sign<><>
 <>
 @
-@ #A3, 0xA3, 10100011, currencies, currency, moneys, character-£, char-£, c-£, /£
+@ #A3, 0xA3, 10100011, 10100011, currencies, currency, moneys, character-£, char-£, c-£, /£
 
 
 # 164 ¤ - Currency Sign
@@ -2498,7 +2499,7 @@ Scarab
 <col>More<><col><l>https://en.wikipedia.org/wiki/Currency_sign_(typography)<><>
 <>
 @
-@ #A4, 0xA4, 10100100, currencies, currency, moneys, character-¤, char-¤, c-¤, /¤
+@ #A4, 0xA4, 10100100, 10100100, currencies, currency, moneys, character-¤, char-¤, c-¤, /¤
 @ Scarab
 
 
@@ -2515,7 +2516,7 @@ Yuan Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Yen_sign<><>
 <>
 @
-@ #A5, 0xA5, 10100101, currencies, currency, moneys, character-¥, char-¥, c-¥, /¥
+@ #A5, 0xA5, 10100101, 10100101, currencies, currency, moneys, character-¥, char-¥, c-¥, /¥
 @ Yuan Sign
 
 
@@ -2532,7 +2533,7 @@ Broken Bar
 <col>More<><col><l>https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar<><>
 <>
 @
-@ #A6, 0xA6, 10100110, character-¦, char-¦, c-¦, /¦
+@ #A6, 0xA6, 10100110, 10100110, character-¦, char-¦, c-¦, /¦
 @ Broken Bar
 
 
@@ -2548,7 +2549,7 @@ Section Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Section_sign<><>
 <>
 @
-@ #A7, 0xA7, 10100111, character-§, char-§, c-§, /§
+@ #A7, 0xA7, 10100111, 10100111, character-§, char-§, c-§, /§
 
 
 # 168 ¨ - Umlaut
@@ -2565,7 +2566,7 @@ Trema
 <col>More<><col><l>https://en.wikipedia.org/wiki/Diaeresis_(diacritic)<><>
 <>
 @
-@ #A8, 0xA8, 10101000, diacritics, accents, character-¨, char-¨, c-¨, /¨
+@ #A8, 0xA8, 10101000, 10101000, diacritics, accents, character-¨, char-¨, c-¨, /¨
 @ Diaeresis (Diacritic) / Trema
 
 
@@ -2582,7 +2583,7 @@ Copyright Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Copyright_symbol<><>
 <>
 @
-@ #A9, 0xA9, 10101001, character-©, char-©, c-©, /©
+@ #A9, 0xA9, 10101001, 10101001, character-©, char-©, c-©, /©
 @ Copyright Sign
 
 
@@ -2598,7 +2599,7 @@ Ordinal Indicator
 <col>More<><col><l>https://en.wikipedia.org/wiki/Ordinal_indicator#Feminine<><>
 <>
 @
-@ #AA, 0xAA, 10101010, character-ª, char-ª, c-ª, /ª
+@ #AA, 0xAA, 10101010, 10101010, character-ª, char-ª, c-ª, /ª
 
 
 # 171 « - Left Guillemet
@@ -2613,7 +2614,7 @@ Left Guillemet
 <col>More<><col><l>https://en.wikipedia.org/wiki/Guillemet<><>
 <>
 @
-@ #AB, 0xAB, 10101011, character-«, char-«, c-«, /«
+@ #AB, 0xAB, 10101011, 10101011, character-«, char-«, c-«, /«
 
 
 # 172 ¬ - Negation
@@ -2628,7 +2629,7 @@ Negation
 <col>More<><col><l>https://en.wikipedia.org/wiki/Negation<><>
 <>
 @
-@ #AC, 0xAC, 10101100, character-¬, char-¬, c-¬, /¬
+@ #AC, 0xAC, 10101100, 10101100, character-¬, char-¬, c-¬, /¬
 
 
 # 173 SHY - Soft Hyphen
@@ -2644,7 +2645,7 @@ Syllable Hyphen
 <col>More<><col><l>https://en.wikipedia.org/wiki/Soft_hyphen<><>
 <>
 @
-@ #AD, 0xAD, 10101101, control characters
+@ #AD, 0xAD, 10101101, 10101101, control characters
 @ Syllable Hyphen
 
 
@@ -2660,7 +2661,7 @@ Registered Trademark Symbol
 <col>More<><col><l>https://en.wikipedia.org/wiki/Registered_trademark_symbol<><>
 <>
 @
-@ #AE, 0xAE, 10101110, character-®, char-®, c-®, /®
+@ #AE, 0xAE, 10101110, 10101110, character-®, char-®, c-®, /®
 
 
 # 175 ¯ - Macron (Diacritic)
@@ -2678,7 +2679,7 @@ Overline
 <col>More<><col><l>https://en.wikipedia.org/wiki/Macron_(diacritic)<><>
 <>
 @
-@ #AF, 0xAF, 10101111, diacritics, accents, character-¯, char-¯, c-¯, /¯
+@ #AF, 0xAF, 10101111, 10101111, diacritics, accents, character-¯, char-¯, c-¯, /¯
 @ Straight Bar / Overbar / Overline
 
 
@@ -2695,7 +2696,7 @@ Degree Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Degree_symbol<><>
 <>
 @
-@ #B0, 0xB0, 10110000, character-°, char-°, c-°, /°
+@ #B0, 0xB0, 10110000, 10110000, character-°, char-°, c-°, /°
 @ Degree Sign
 
 
@@ -2711,7 +2712,7 @@ Plus-Minus Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Plus%E2%80%93minus_sign<><>
 <>
 @
-@ #B1, 0xB1, 10110001, character-±, char-±, c-±, /±
+@ #B1, 0xB1, 10110001, 10110001, character-±, char-±, c-±, /±
 
 
 # 178 ² - Superscript 2
@@ -2725,7 +2726,7 @@ Supescript Two
 <col>Bin<><col><c>10110010<><>
 <>
 @
-@ #B2, 0xB2, 10110010, character-², char-², c-², /²
+@ #B2, 0xB2, 10110010, 10110010, character-², char-², c-², /²
 @ Supescript Two
 
 
@@ -2740,7 +2741,7 @@ Superscript Three
 <col>Bin<><col><c>10110011<><>
 <>
 @
-@ #B3, 0xB3, 10110011, character-³, char-³, c-³, /³
+@ #B3, 0xB3, 10110011, 10110011, character-³, char-³, c-³, /³
 @ Superscript Three
 
 
@@ -2756,7 +2757,7 @@ Acute Accent
 <col>More<><col><l>https://en.wikipedia.org/wiki/Acute_accent<><>
 <>
 @
-@ #B4, 0xB4, 10110100, diacritics, accents, character-´, char-´, c-´, /´
+@ #B4, 0xB4, 10110100, 10110100, diacritics, accents, character-´, char-´, c-´, /´
 
 
 # 181 µ - Greek Letter Μu
@@ -2772,7 +2773,7 @@ Micro
 <col>More<><col><l>https://en.wikipedia.org/wiki/Micro-<><>
 <>
 @
-@ #B5, 0xB5, 10110101, character-µ, char-µ, c-µ, /µ
+@ #B5, 0xB5, 10110101, 10110101, character-µ, char-µ, c-µ, /µ
 @ Micro
 
 
@@ -2790,7 +2791,7 @@ Paragraph
 <col>More<><col><l>https://en.wikipedia.org/wiki/Pilcrow<><>
 <>
 @
-@ #B6, 0xB6, 10110110, character-¶, char-¶, c-¶, /¶
+@ #B6, 0xB6, 10110110, 10110110, character-¶, char-¶, c-¶, /¶
 @ Paragraph Mark / Paragraph
 
 
@@ -2809,7 +2810,7 @@ Centered Dot
 <col>More<><col><l>https://en.wikipedia.org/wiki/Interpunct<><>
 <>
 @
-@ #B7, 0xB7, 10110111, character-·, char-·, c-·, /·
+@ #B7, 0xB7, 10110111, 10110111, character-·, char-·, c-·, /·
 @ Middle Dot / Middot / Centered Dot
 
 
@@ -2826,7 +2827,7 @@ Cedille
 <col>More<><col><l>https://en.wikipedia.org/wiki/Cedilla<><>
 <>
 @
-@ #B8, 0xB8, 10111000, character-¸, char-¸, c-¸, /¸
+@ #B8, 0xB8, 10111000, 10111000, character-¸, char-¸, c-¸, /¸
 @ Cedille
 
 
@@ -2841,7 +2842,7 @@ Superscript One
 <col>Bin<><col><c>10111001<><>
 <>
 @
-@ #B9, 0xB9, 10111001, character-¹, char-¹, c-¹, /¹
+@ #B9, 0xB9, 10111001, 10111001, character-¹, char-¹, c-¹, /¹
 @ Superscript One
 
 
@@ -2857,7 +2858,7 @@ Ordinal Indicator
 <col>More<><col><l>https://en.wikipedia.org/wiki/Ordinal_indicator#Masculine<><>
 <>
 @
-@ #BA, 0xBA, 10111010, character-º, char-º, c-º, /º
+@ #BA, 0xBA, 10111010, 10111010, character-º, char-º, c-º, /º
 
 
 # 187 » - Right Guillemet
@@ -2872,7 +2873,7 @@ Right Guillemet
 <col>More<><col><l>https://en.wikipedia.org/wiki/Guillemet<><>
 <>
 @
-@ #BB, 0xBB, 10111011, character-», char-», c-», /»
+@ #BB, 0xBB, 10111011, 10111011, character-», char-», c-», /»
 
 
 # 188 ¼ - Quarter Fraction
@@ -2888,7 +2889,7 @@ One Over Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/Fraction_(mathematics)#Typographical_variations<><>
 <>
 @
-@ #BC, 0xBC, 10111100, character-¼, char-¼, c-¼, /¼
+@ #BC, 0xBC, 10111100, 10111100, character-¼, char-¼, c-¼, /¼
 @ One Over Four
 
 
@@ -2906,7 +2907,7 @@ One Over Two
 <col>More<><col><l>https://en.wikipedia.org/wiki/One_half<><>
 <>
 @
-@ #BD, 0xBD, 10111101, character-½, char-½, c-½, /½
+@ #BD, 0xBD, 10111101, 10111101, character-½, char-½, c-½, /½
 @ One Half / One Over Two
 
 
@@ -2923,7 +2924,7 @@ Three Over Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/Fraction#Typographical_variations<><>
 <>
 @
-@ #BE, 0xBE, 10111110, character-¾, char-¾, c-¾, /¾
+@ #BE, 0xBE, 10111110, 10111110, character-¾, char-¾, c-¾, /¾
 @ Three Over Four
 
 
@@ -2939,7 +2940,7 @@ Inverted Question Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Inverted_question_mark<><>
 <>
 @
-@ #BF, 0xBF, 10111111, character-¿, char-¿, c-¿, /¿
+@ #BF, 0xBF, 10111111, 10111111, character-¿, char-¿, c-¿, /¿
 
 
 # 192 À - Upper Case A-Grave
@@ -2954,7 +2955,7 @@ Upper Case A-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%80<><>
 <>
 @
-@ #C0, 0xC0, 11000000, base-a, b-a, vowels, accented, acute, ´, grave, `, character-À, char-À, c-À, /À
+@ #C0, 0xC0, 11000000, 11000000, base-a, -a, vowels, accented, a-acute , acute, ´, a-grave , grave, `, character-À, char-À, c-À, /À
 
 
 # 193 Á - Upper Case A-Acute
@@ -2969,7 +2970,7 @@ Upper Case A-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%81<><>
 <>
 @
-@ #C1, 0xC1, 11000001, base-a, b-a, vowels, accented, acute, ´, character-Á, char-Á, c-Á, /Á
+@ #C1, 0xC1, 11000001, 11000001, base-a, -a, vowels, accented, a-acute , acute, ´, character-Á, char-Á, c-Á, /Á
 
 
 # 194 Â - Upper Case A-Circumflex
@@ -2984,7 +2985,7 @@ Upper Case A-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%82<><>
 <>
 @
-@ #C2, 0xC2, 11000010, base-a, b-a, vowels, accented, circumflex, ^, character-Â, char-Â, c-Â, /Â
+@ #C2, 0xC2, 11000010, 11000010, base-a, -a, vowels, accented, a-circumflex , circumflex, ^, character-Â, char-Â, c-Â, /Â
 
 
 # 195 Ã - Upper Case A With Tilde
@@ -2999,7 +3000,7 @@ Upper Case A With Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%83<><>
 <>
 @
-@ #C3, 0xC3, 11000011, base-a, b-a, vowels, accented, tilde, ~, character-Ã, char-Ã, c-Ã, /Ã
+@ #C3, 0xC3, 11000011, 11000011, base-a, -a, vowels, accented, a-tilde , tilde, ~, character-Ã, char-Ã, c-Ã, /Ã
 
 
 # 196 Ä - Upper Case A With Umlaut
@@ -3014,7 +3015,7 @@ Upper Case A With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%84<><>
 <>
 @
-@ #C4, 0xC4, 11000100, base-a, b-a, vowels, accented, umlaut, ¨, character-Ä, char-Ä, c-Ä, /Ä
+@ #C4, 0xC4, 11000100, 11000100, base-a, -a, vowels, accented, a-umlaut , umlaut, ¨, character-Ä, char-Ä, c-Ä, /Ä
 
 
 # 197 Å - Upper Case A-Ring
@@ -3029,7 +3030,7 @@ Upper Case A-Ring
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%85<><>
 <>
 @
-@ #C5, 0xC5, 11000101, base-a, b-a, vowels, accented, ring, ˚, character-Å, char-Å, c-Å, /Å
+@ #C5, 0xC5, 11000101, 11000101, base-a, -a, vowels, accented, a-ring , ring, ˚, character-Å, char-Å, c-Å, /Å
 
 
 # 198 Æ - Upper Case Æ
@@ -3044,7 +3045,7 @@ Upper Case Æ
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%86<><>
 <>
 @
-@ #C6, 0xC6, 11000110, character-Æ, char-Æ, c-Æ, /Æ
+@ #C6, 0xC6, 11000110, 11000110, character-Æ, char-Æ, c-Æ, /Æ
 
 
 # 199 Ç - Upper Case C-cedilla
@@ -3059,7 +3060,7 @@ Upper Case C-cedilla
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%87<><>
 <>
 @
-@ #C7, 0xC7, 11000111, character-Ç, char-Ç, c-Ç, /Ç
+@ #C7, 0xC7, 11000111, 11000111, character-Ç, char-Ç, c-Ç, /Ç
 
 
 # 200 È - Upper Case E-Grave
@@ -3074,7 +3075,7 @@ Upper Case E-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%88<><>
 <>
 @
-@ #C8, 0xC8, 11001000, base-e, b-e, vowels, accented, grave, `, character-È, char-È, c-È, /È
+@ #C8, 0xC8, 11001000, 11001000, base-e, -e, vowels, accented, e-grave , grave, `, character-È, char-È, c-È, /È
 
 
 # 201 É - Upper Case E-Acute
@@ -3089,7 +3090,7 @@ Upper Case E-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%89<><>
 <>
 @
-@ #C9, 0xC9, 11001001, base-e, b-e, vowels, accented, acute, ´, character-É, char-É, c-É, /É
+@ #C9, 0xC9, 11001001, 11001001, base-e, -e, vowels, accented, e-acute , acute, ´, character-É, char-É, c-É, /É
 
 
 # 202 Ê - Upper Case E-Circumflex
@@ -3104,7 +3105,7 @@ Upper Case E-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8A<><>
 <>
 @
-@ #CA, 0xCA, 11001010, base-e, b-e, vowels, accented, circumflex, ^, character-Ê, char-Ê, c-Ê, /Ê
+@ #CA, 0xCA, 11001010, 11001010, base-e, -e, vowels, accented, e-circumflex , circumflex, ^, character-Ê, char-Ê, c-Ê, /Ê
 
 
 # 203 Ë - Upper Case E With Umlaut
@@ -3119,7 +3120,7 @@ Upper Case E With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8B<><>
 <>
 @
-@ #CB, 0xCB, 11001011, base-e, b-e, vowels, accented, umlaut, ¨, character-Ë, char-Ë, c-Ë, /Ë
+@ #CB, 0xCB, 11001011, 11001011, base-e, -e, vowels, accented, e-umlaut , umlaut, ¨, character-Ë, char-Ë, c-Ë, /Ë
 
 
 # 204 Ì - Upper Case I-Grave
@@ -3134,7 +3135,7 @@ Upper Case I-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8C<><>
 <>
 @
-@ #CC, 0xCC, 11001100, base-i, b-i, vowels, accented, grave, `, character-Ì, char-Ì, c-Ì, /Ì
+@ #CC, 0xCC, 11001100, 11001100, base-i, -i, vowels, accented, i-grave , grave, `, character-Ì, char-Ì, c-Ì, /Ì
 
 
 # 205 Í - Upper Case I-Acute
@@ -3149,7 +3150,7 @@ Upper Case I-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8D<><>
 <>
 @
-@ #CD, 0xCD, 11001101, base-i, b-i, vowels, accented, acute, ´, character-Í, char-Í, c-Í, /Í
+@ #CD, 0xCD, 11001101, 11001101, base-i, -i, vowels, accented, i-acute , acute, ´, character-Í, char-Í, c-Í, /Í
 
 
 # 206 Î - Upper Case I-Circumflex
@@ -3164,7 +3165,7 @@ Upper Case I-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8E<><>
 <>
 @
-@ #CE, 0xCE, 11001110, base-i, b-i, vowels, accented, circumflex, ^, character-Î, char-Î, c-Î, /Î
+@ #CE, 0xCE, 11001110, 11001110, base-i, -i, vowels, accented, i-circumflex , circumflex, ^, character-Î, char-Î, c-Î, /Î
 
 
 # 207 Ï - Upper Case I With Umlaut
@@ -3179,7 +3180,7 @@ Upper Case I With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8F<><>
 <>
 @
-@ #CF, 0xCF, 11001111, base-i, b-i, vowels, accented, umlaut, ¨, character-Ï, char-Ï, c-Ï, /Ï
+@ #CF, 0xCF, 11001111, 11001111, base-i, -i, vowels, accented, i-umlaut , umlaut, ¨, character-Ï, char-Ï, c-Ï, /Ï
 
 
 # 208 Ð - Upper Case Eth
@@ -3195,7 +3196,7 @@ Edh
 <col>More<><col><l>https://en.wikipedia.org/wiki/Eth<><>
 <>
 @
-@ #D0, 0xD0, 11010000, character-Ð, char-Ð, c-Ð, /Ð
+@ #D0, 0xD0, 11010000, 11010000, character-Ð, char-Ð, c-Ð, /Ð
 @ Edh
 
 
@@ -3211,7 +3212,7 @@ Upper Case Eñe
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%91<><>
 <>
 @
-@ #D1, 0xD1, 11010001, character-Ñ, char-Ñ, c-Ñ, /Ñ
+@ #D1, 0xD1, 11010001, 11010001, character-Ñ, char-Ñ, c-Ñ, /Ñ
 
 
 # 210 Ò - Upper Case O-Grave
@@ -3226,7 +3227,7 @@ Upper Case O-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%92<><>
 <>
 @
-@ #D2, 0xD2, 11010010, base-o, b-o, vowels, accented, grave, `, character-Ò, char-Ò, c-Ò, /Ò
+@ #D2, 0xD2, 11010010, 11010010, base-o, -o, vowels, accented, o-grave , grave, `, character-Ò, char-Ò, c-Ò, /Ò
 
 
 # 211 Ó - Upper Case O-Acute
@@ -3241,7 +3242,7 @@ Upper Case O-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%93<><>
 <>
 @
-@ #D3, 0xD3, 11010011, base-o, b-o, vowels, accented, acute, ´, character-Ó, char-Ó, c-Ó, /Ó
+@ #D3, 0xD3, 11010011, 11010011, base-o, -o, vowels, accented, o-acute , acute, ´, character-Ó, char-Ó, c-Ó, /Ó
 
 
 # 212 Ô - Upper Case O-Circumflex
@@ -3256,7 +3257,7 @@ Upper Case O-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%94<><>
 <>
 @
-@ #D4, 0xD4, 11010100, base-o, b-o, vowels, accented, circumflex, ^, character-Ô, char-Ô, c-Ô, /Ô
+@ #D4, 0xD4, 11010100, 11010100, base-o, -o, vowels, accented, o-circumflex , circumflex, ^, character-Ô, char-Ô, c-Ô, /Ô
 
 
 # 213 Õ - Upper Case O With Tilde
@@ -3271,7 +3272,7 @@ Upper Case O With Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%95<><>
 <>
 @
-@ #D5, 0xD5, 11010101, base-o, b-o, vowels, accented, tilde, ~, character-Õ, char-Õ, c-Õ, /Õ
+@ #D5, 0xD5, 11010101, 11010101, base-o, -o, vowels, accented, o-tilde , tilde, ~, character-Õ, char-Õ, c-Õ, /Õ
 
 
 # 214 Ö - Upper Case O With Umlaut
@@ -3286,7 +3287,7 @@ Upper Case O With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%96<><>
 <>
 @
-@ #D6, 0xD6, 11010110, base-o, b-o, vowels, accented, umlaut, ¨, character-Ö, char-Ö, c-Ö, /Ö
+@ #D6, 0xD6, 11010110, 11010110, base-o, -o, vowels, accented, o-umlaut , umlaut, ¨, character-Ö, char-Ö, c-Ö, /Ö
 
 
 # 215 × - Multiply Sign
@@ -3302,7 +3303,7 @@ Times Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Multiplication_sign<><>
 <>
 @
-@ #D7, 0xD7, 11010111, character-×, char-×, c-×, /×
+@ #D7, 0xD7, 11010111, 11010111, character-×, char-×, c-×, /×
 @ Times Sign
 
 
@@ -3318,7 +3319,7 @@ Upper Case Ø
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%98<><>
 <>
 @
-@ #D8, 0xD8, 11011000, character-Ø, char-Ø, c-Ø, /Ø
+@ #D8, 0xD8, 11011000, 11011000, character-Ø, char-Ø, c-Ø, /Ø
 
 
 # 217 Ù - Upper Case U-Grave
@@ -3333,7 +3334,7 @@ Upper Case U-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%99<><>
 <>
 @
-@ #D9, 0xD9, 11011001, base-u, b-u, vowels, accented, grave, `, character-Ù, char-Ù, c-Ù, /Ù
+@ #D9, 0xD9, 11011001, 11011001, base-u, -u, vowels, accented, u-grave , grave, `, character-Ù, char-Ù, c-Ù, /Ù
 
 
 # 218 Ú - Upper Case U-Acute
@@ -3348,7 +3349,7 @@ Upper Case U-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9A<><>
 <>
 @
-@ #DA, 0xDA, 11011010, base-u, b-u, vowels, accented, acute, ´, character-Ú, char-Ú, c-Ú, /Ú
+@ #DA, 0xDA, 11011010, 11011010, base-u, -u, vowels, accented, u-acute , acute, ´, character-Ú, char-Ú, c-Ú, /Ú
 
 
 # 219 Û - Upper Case U-Circumflex
@@ -3363,7 +3364,7 @@ Upper Case U-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9B<><>
 <>
 @
-@ #DB, 0xDB, 11011011, base-u, b-u, vowels, accented, circumflex, ^, character-Û, char-Û, c-Û, /Û
+@ #DB, 0xDB, 11011011, 11011011, base-u, -u, vowels, accented, u-circumflex , circumflex, ^, character-Û, char-Û, c-Û, /Û
 
 
 # 220 Ü - Upper Case U With Umlaut
@@ -3378,7 +3379,7 @@ Upper Case U With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9C<><>
 <>
 @
-@ #DC, 0xDC, 11011100, base-u, b-u, vowels, accented, umlaut, ¨, character-Ü, char-Ü, c-Ü, /Ü
+@ #DC, 0xDC, 11011100, 11011100, base-u, -u, vowels, accented, u-umlaut , umlaut, ¨, character-Ü, char-Ü, c-Ü, /Ü
 
 
 # 221 Ý - Upper Case Y-Acute
@@ -3393,7 +3394,7 @@ Upper Case Y-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9D<><>
 <>
 @
-@ #DD, 0xDD, 11011101, base-y, b-y, accented, acute, ´, character-Ý, char-Ý, c-Ý, /Ý
+@ #DD, 0xDD, 11011101, 11011101, base-y, -y, accented, y-acute , acute, ´, character-Ý, char-Ý, c-Ý, /Ý
 
 
 # 222 Þ - Upper Case Þ
@@ -3410,7 +3411,7 @@ Thorn
 <col>More<><col><l>https://en.wikipedia.org/wiki/Thorn_(letter)<><>
 <>
 @
-@ #DE, 0xDE, 11011110, character-Þ, char-Þ, c-Þ, /Þ
+@ #DE, 0xDE, 11011110, 11011110, character-Þ, char-Þ, c-Þ, /Þ
 @ Thorn / Þorn
 
 
@@ -3427,7 +3428,7 @@ Eszett
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9F<><>
 <>
 @
-@ #DF, 0xDF, 11011111, character-ß, char-ß, c-ß, /ß
+@ #DF, 0xDF, 11011111, 11011111, character-ß, char-ß, c-ß, /ß
 @ Eszett
 
 
@@ -3443,7 +3444,7 @@ Lower Case A-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%80<><>
 <>
 @
-@ #E0, 0xE0, 11100000, base-a, b-a, vowels, accented, grave, `, character-à, char-à, c-à, /à
+@ #E0, 0xE0, 11100000, 11100000, base-a, -a, vowels, accented, a-grave , grave, `, character-à, char-à, c-à, /à
 
 
 # 225 á - Lower Case A-Acute
@@ -3458,7 +3459,7 @@ Lower Case A-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%81<><>
 <>
 @
-@ #E1, 0xE1, 11100001, base-a, b-a, vowels, accented, acute, ´, character-á, char-á, c-á, /á
+@ #E1, 0xE1, 11100001, 11100001, base-a, -a, vowels, accented, a-acute , acute, ´, character-á, char-á, c-á, /á
 
 
 # 226 â - Lower Case A-Circumflex
@@ -3473,7 +3474,7 @@ Lower Case A-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%82<><>
 <>
 @
-@ #E2, 0xE2, 11100010, base-a, b-a, vowels, accented, circumflex, ^, character-â, char-â, c-â, /â
+@ #E2, 0xE2, 11100010, 11100010, base-a, -a, vowels, accented, a-circumflex , circumflex, ^, character-â, char-â, c-â, /â
 
 
 # 227 ã - Lower Case A With Tilde
@@ -3488,7 +3489,7 @@ Lower Case A With Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%83<><>
 <>
 @
-@ #E3, 0xE3, 11100011, base-a, b-a, vowels, accented, tilde, ~, character-ã, char-ã, c-ã, /ã
+@ #E3, 0xE3, 11100011, 11100011, base-a, -a, vowels, accented, a-tilde , tilde, ~, character-ã, char-ã, c-ã, /ã
 
 
 # 228 ä - Lower Case A With Umlaut
@@ -3503,7 +3504,7 @@ Lower Case A With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%84<><>
 <>
 @
-@ #E4, 0xE4, 11100100, base-a, b-a, vowels, accented, umlaut, ¨, character-ä, char-ä, c-ä, /ä
+@ #E4, 0xE4, 11100100, 11100100, base-a, -a, vowels, accented, a-umlaut , umlaut, ¨, character-ä, char-ä, c-ä, /ä
 
 
 # 229 å - Lower Case A-Ring
@@ -3518,7 +3519,7 @@ Lower Case A-Ring
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%85<><>
 <>
 @
-@ #E5, 0xE5, 11100101, base-a, b-a, vowels, accented, ring, ˚, character-å, char-å, c-å, /å
+@ #E5, 0xE5, 11100101, 11100101, base-a, -a, vowels, accented, a-ring , ring, ˚, character-å, char-å, c-å, /å
 
 
 # 230 æ - Letter Æ
@@ -3533,7 +3534,7 @@ Letter Æ
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%86<><>
 <>
 @
-@ #E6, 0xE6, 11100110, character-æ, char-æ, c-æ, /æ
+@ #E6, 0xE6, 11100110, 11100110, character-æ, char-æ, c-æ, /æ
 
 
 # 231 ç - Lower Case Ç
@@ -3548,7 +3549,7 @@ Lower Case Ç
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%87<><>
 <>
 @
-@ #E7, 0xE7, 11100111, character-ç, char-ç, c-ç, /ç
+@ #E7, 0xE7, 11100111, 11100111, character-ç, char-ç, c-ç, /ç
 
 
 # 232 è - Lower Case E-Grave
@@ -3563,7 +3564,7 @@ Lower Case E-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%88<><>
 <>
 @
-@ #E8, 0xE8, 11101000, base-e, b-e, vowels, accented, grave, `, character-è, char-è, c-è, /è
+@ #E8, 0xE8, 11101000, 11101000, base-e, -e, vowels, accented, e-grave , grave, `, character-è, char-è, c-è, /è
 
 
 # 233 é - Lower Case E-Acute
@@ -3578,7 +3579,7 @@ Lower Case E-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%89<><>
 <>
 @
-@ #E9, 0xE9, 11101001, base-e, b-e, vowels, accented, acute, ´, character-é, char-é, c-é, /é
+@ #E9, 0xE9, 11101001, 11101001, base-e, -e, vowels, accented, e-acute , acute, ´, character-é, char-é, c-é, /é
 
 
 # 234 ê - Lower Case E-Circumflex
@@ -3593,7 +3594,7 @@ Lower Case E-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8A<><>
 <>
 @
-@ #EA, 0xEA, 11101010, base-e, b-e, vowels, accented, circumflex, ^, character-ê, char-ê, c-ê, /ê
+@ #EA, 0xEA, 11101010, 11101010, base-e, -e, vowels, accented, e-circumflex , circumflex, ^, character-ê, char-ê, c-ê, /ê
 
 
 # 235 ë - Lower Case E With Umlaut
@@ -3608,7 +3609,7 @@ Lower Case E With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8B<><>
 <>
 @
-@ #EB, 0xEB, 11101011, base-e, b-e, vowels, accented, umlaut, ¨, character-ë, char-ë, c-ë, /ë
+@ #EB, 0xEB, 11101011, 11101011, base-e, -e, vowels, accented, e-umlaut , umlaut, ¨, character-ë, char-ë, c-ë, /ë
 
 
 # 236 ì - Lower Case I-Grave
@@ -3623,7 +3624,7 @@ Lower Case I-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8C<><>
 <>
 @
-@ #EC, 0xEC, 11101100, base-i, b-i, vowels, accented, grave, `, character-ì, char-ì, c-ì, /ì
+@ #EC, 0xEC, 11101100, 11101100, base-i, -i, vowels, accented, i-grave , grave, `, character-ì, char-ì, c-ì, /ì
 
 
 # 237 í - Lower Case I-Acute
@@ -3638,7 +3639,7 @@ Lower Case I-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8D<><>
 <>
 @
-@ #ED, 0xED, 11101101, base-i, b-i, vowels, accented, acute, ´, character-í, char-í, c-í, /í
+@ #ED, 0xED, 11101101, 11101101, base-i, -i, vowels, accented, i-acute , acute, ´, character-í, char-í, c-í, /í
 
 
 # 238 î - Lower Case I-Circumflex
@@ -3653,7 +3654,7 @@ Lower Case I-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8E<><>
 <>
 @
-@ #EE, 0xEE, 11101110, base-i, b-i, vowels, accented, circumflex, ^, character-î, char-î, c-î, /î
+@ #EE, 0xEE, 11101110, 11101110, base-i, -i, vowels, accented, i-circumflex , circumflex, ^, character-î, char-î, c-î, /î
 
 
 # 239 ï - Lower Case I With Umlaut
@@ -3668,7 +3669,7 @@ Lower Case I With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%8F<><>
 <>
 @
-@ #EF, 0xEF, 11101111, base-i, b-i, vowels, accented, umlaut, ¨, character-ï, char-ï, c-ï, /ï
+@ #EF, 0xEF, 11101111, 11101111, base-i, -i, vowels, accented, i-umlaut , umlaut, ¨, character-ï, char-ï, c-ï, /ï
 
 
 # 240 ð - Lower Case Eth
@@ -3684,7 +3685,7 @@ Edh
 <col>More<><col><l>https://en.wikipedia.org/wiki/Eth<><>
 <>
 @
-@ #F0, 0xF0, 11110000, character-ð, char-ð, c-ð, /ð
+@ #F0, 0xF0, 11110000, 11110000, character-ð, char-ð, c-ð, /ð
 @ Edh
 
 
@@ -3700,7 +3701,7 @@ Lower Case Eñe
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%91<><>
 <>
 @
-@ #F1, 0xF1, 11110001, character-ñ, char-ñ, c-ñ, /ñ
+@ #F1, 0xF1, 11110001, 11110001, character-ñ, char-ñ, c-ñ, /ñ
 
 
 # 242 ò - Lower Case O-Grave
@@ -3715,7 +3716,7 @@ Lower Case O-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%92<><>
 <>
 @
-@ #F2, 0xF2, 11110010, base-o, b-o, vowels, accented, grave, `, character-ò, char-ò, c-ò, /ò
+@ #F2, 0xF2, 11110010, 11110010, base-o, -o, vowels, accented, o-grave , grave, `, character-ò, char-ò, c-ò, /ò
 
 
 # 243 ó - Lower Case O-Acute
@@ -3730,7 +3731,7 @@ Lower Case O-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%93<><>
 <>
 @
-@ #F3, 0xF3, 11110011, base-o, b-o, vowels, accented, acute, ´, character-ó, char-ó, c-ó, /ó
+@ #F3, 0xF3, 11110011, 11110011, base-o, -o, vowels, accented, o-acute , acute, ´, character-ó, char-ó, c-ó, /ó
 
 
 # 244 ô - Lower Case O-Circumflex
@@ -3745,7 +3746,7 @@ Lower Case O-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%94<><>
 <>
 @
-@ #F4, 0xF4, 11110100, base-o, b-o, vowels, accented, circumflex, ^, character-ô, char-ô, c-ô, /ô
+@ #F4, 0xF4, 11110100, 11110100, base-o, -o, vowels, accented, o-circumflex , circumflex, ^, character-ô, char-ô, c-ô, /ô
 
 
 # 245 õ - Lower Case O With Tilde
@@ -3760,7 +3761,7 @@ Lower Case O With Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%95<><>
 <>
 @
-@ #F5, 0xF5, 11110101, base-o, b-o, vowels, accented, tilde, ~, character-õ, char-õ, c-õ, /õ
+@ #F5, 0xF5, 11110101, 11110101, base-o, -o, vowels, accented, o-tilde , tilde, ~, character-õ, char-õ, c-õ, /õ
 
 
 # 246 ö - Lower Case O With Umlaut
@@ -3775,7 +3776,7 @@ Lower Case O With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%96<><>
 <>
 @
-@ #F6, 0xF6, 11110110, base-o, b-o, vowels, accented, umlaut, ¨, character-ö, char-ö, c-ö, /ö
+@ #F6, 0xF6, 11110110, 11110110, base-o, -o, vowels, accented, o-umlaut , umlaut, ¨, character-ö, char-ö, c-ö, /ö
 
 
 # 247 ÷ - Obelus
@@ -3792,7 +3793,7 @@ Divide Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Obelus<><>
 <>
 @
-@ #F7, 0xF7, 11110111, character-÷, char-÷, c-÷, /÷
+@ #F7, 0xF7, 11110111, 11110111, character-÷, char-÷, c-÷, /÷
 @ Division Sign / Divide Sign
 
 
@@ -3808,7 +3809,7 @@ Lower Case Ø
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%98<><>
 <>
 @
-@ #F8, 0xF8, 11111000, character-ø, char-ø, c-ø, /ø
+@ #F8, 0xF8, 11111000, 11111000, character-ø, char-ø, c-ø, /ø
 
 
 # 249 ù - Lower Case U-Grave
@@ -3823,7 +3824,7 @@ Lower Case U-Grave
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%99<><>
 <>
 @
-@ #F9, 0xF9, 11111001, base-u, b-u, vowels, accented, grave, `, character-ù, char-ù, c-ù, /ù
+@ #F9, 0xF9, 11111001, 11111001, base-u, -u, vowels, accented, u-grave , grave, `, character-ù, char-ù, c-ù, /ù
 
 
 # 250 ú - Lower Case U-Acute
@@ -3838,7 +3839,7 @@ Lower Case U-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9A<><>
 <>
 @
-@ #FA, 0xFA, 11111010, base-u, b-u, vowels, accented, acute, ´, character-ú, char-ú, c-ú, /ú
+@ #FA, 0xFA, 11111010, 11111010, base-u, -u, vowels, accented, u-acute , acute, ´, character-ú, char-ú, c-ú, /ú
 
 
 # 251 û - Lower Case U-Circumflex
@@ -3853,7 +3854,7 @@ Lower Case U-Circumflex
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9B<><>
 <>
 @
-@ #FB, 0xFB, 11111011, base-u, b-u, vowels, accented, circumflex, ^, character-û, char-û, c-û, /û
+@ #FB, 0xFB, 11111011, 11111011, base-u, -u, vowels, accented, u-circumflex , circumflex, ^, character-û, char-û, c-û, /û
 
 
 # 252 ü - Lower Case U With Umlaut
@@ -3868,7 +3869,7 @@ Lower Case U With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9C<><>
 <>
 @
-@ #FC, 0xFC, 11111100, base-u, b-u, vowels, accented, umlaut, ¨, character-ü, char-ü, c-ü, /ü
+@ #FC, 0xFC, 11111100, 11111100, base-u, -u, vowels, accented, u-umlaut , umlaut, ¨, character-ü, char-ü, c-ü, /ü
 
 
 # 253 ý - Lower Case Y-Acute
@@ -3883,7 +3884,7 @@ Lower Case Y-Acute
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C3%9D<><>
 <>
 @
-@ #FD, 0xFD, 11111101, base-y, b-y, accented, acute, ´, character-ý, char-ý, c-ý, /ý
+@ #FD, 0xFD, 11111101, 11111101, base-y, -y, accented, y-acute , acute, ´, character-ý, char-ý, c-ý, /ý
 
 
 # 254 þ - Lower Case Þ
@@ -3900,7 +3901,7 @@ Thorn
 <col>More<><col><l>https://en.wikipedia.org/wiki/Thorn_(letter)<><>
 <>
 @
-@ #FE, 0xFE, 11111110, character-þ, char-þ, c-þ, /þ
+@ #FE, 0xFE, 11111110, 11111110, character-þ, char-þ, c-þ, /þ
 @ Thorn / Þorn
 
 
@@ -3916,7 +3917,7 @@ Lower Case Y With Umlaut
 <col>More<><col><l>https://en.wikipedia.org/wiki/%C5%B8<><>
 <>
 @
-@ #FF, 0xFF, 11111111, base-y, b-y, accented, umlaut, ¨, character-ÿ, char-ÿ, c-ÿ, /ÿ
+@ #FF, 0xFF, 11111111, 11111111, base-y, -y, accented, y-umlaut , umlaut, ¨, character-ÿ, char-ÿ, c-ÿ, /ÿ
 
 
 # Newline
@@ -3976,6 +3977,7 @@ base-y<>
 
 <in-2>accents
 alphabet
+brackets
 control character
 currencies
 diacritic

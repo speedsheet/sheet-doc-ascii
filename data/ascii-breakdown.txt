@@ -1,0 +1,77 @@
+A
+ÀÁÂÃÄÅàáâãäå
+
+E
+ÈÉÊËèéêë
+
+I
+ÌÍÎÏìíîï
+
+O
+ÒÓÔÖÕòóôöõ
+
+U
+ÙÚÛÜùúûü
+
+Y
+ýÿÝŸ
+
+Upper Case
+ÀÁÂÄÃÅÈÉÊËÌÍÎÏÒÓÔÖÕÙÚÛÜÝŸ
+
+Lower Case
+àáâäãåèéêëìíîïòóôöõùúûüýÿ
+
+Grave (à)
+ÀàÈèÌìÒòÙù
+
+Acute (á)
+ÀÁáÉéÍíÓóÚúýÝ
+
+Circumflex (â)
+ÂâÊêÎîÔôÛû
+
+With Tilde (ã)
+ÃãÕõ
+
+With Umlaut (ä)
+ÄäËëÏïÖöÜüÿŸ
+
+Ring (å)
+Åå
+
+
+
+
+
+
+ÀÁÂÄÃÅ
+àáâäãå
+ÈÉÊË
+èéêë
+ÌÍÎÏ
+ìíîï
+ÒÓÔÖÕ
+òóôöõ
+ÙÚÛÜ
+ùúûü
+ ý ÿ
+ Ý Ÿ
+
+Upper / Lower
+æÆ
+çÇ
+ñÑ
+øØ
+
+Diacrcitic:
+`¨¯´
+
+
+Diacritic
+A glyph added to a letter to give it an accent.
+
+Umlaut... accent, diacritic
+Acute... accent, diactritic
+
+

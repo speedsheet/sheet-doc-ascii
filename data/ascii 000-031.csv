@@ -1,0 +1,35 @@
+code, name, caret, escape, description, description2, link
+00,NUL,^@,\0,Null,,https://en.wikipedia.org/wiki/Null_character
+01,SOH,^A,,Start of Heading,,https://en.wikipedia.org/wiki/Start_of_heading
+02,STX,^B,,Start of Text,,https://en.wikipedia.org/wiki/Start_of_text
+03,ETX,^C,,End of Text,,https://en.wikipedia.org/wiki/End-of-Text_character
+04,EOT,^D,,End of Transmission,,https://en.wikipedia.org/wiki/End_of_transmission_character
+05,ENQ,^E,,Enquiry,,https://en.wikipedia.org/wiki/Enquiry_character
+06,ACK,^F,,Acknowledgement,,https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)
+07,BEL,^G,\a,Bell,,https://en.wikipedia.org/wiki/Bell_character
+08,BS,^H,\b,Backspace,,https://en.wikipedia.org/wiki/Backspace
+09,HT,^I,\t,Horizontal Tab,,https://en.wikipedia.org/wiki/Tab_character
+10,LF,^J,\n,Line Feed,,https://en.wikipedia.org/wiki/Line_feed
+11,VT,^K,\v,Vertical Tab,,https://en.wikipedia.org/wiki/Vertical_tab
+12,FF,^L,\f,Form Feed,,https://en.wikipedia.org/wiki/Form_feed
+13,CR,^M,\r,Carriage Return,,https://en.wikipedia.org/wiki/Carriage_return
+14,SO,^N,,Shift Out,,https://en.wikipedia.org/wiki/Shift_out
+15,SI,^O,,Shift In,,https://en.wikipedia.org/wiki/Shift_in
+16,DLE,^P,,Data Link Escape,,https://en.wikipedia.org/wiki/Data_link_escape
+17,DC1,^Q,,Device Control 1 (often XON),,https://en.wikipedia.org/wiki/Device_Control_1
+18,DC2,^R,,Device Control 2,,https://en.wikipedia.org/wiki/Device_Control_2
+19,DC3,^S,,Device Control 3 (often XOFF),,https://en.wikipedia.org/wiki/Device_Control_3
+20,DC4,^T,,Device Control 4,,https://en.wikipedia.org/wiki/Device_Control_4
+21,NAK,^U,,Negative Acknowledgement,,https://en.wikipedia.org/wiki/Negative_acknowledge_character
+22,SYN,^V,,Synchronous Idle,,https://en.wikipedia.org/wiki/Synchronous_idle
+23,ETB,^W,,End of Transmission Block,,https://en.wikipedia.org/wiki/End_of_transmission_block
+24,CAN,^X,,Cancel,,https://en.wikipedia.org/wiki/Cancel_character
+25,EM,^Y,,End of Medium,,https://en.wikipedia.org/wiki/End_of_medium
+26,SUB,^Z,,Substitute,,https://en.wikipedia.org/wiki/Substitute_character
+27,ESC,^[,,Escape,,https://en.wikipedia.org/wiki/Escape_character
+28,FS,^\,,File Separator,,https://en.wikipedia.org/wiki/File_separator
+29,GS,^],,Group Separator,,https://en.wikipedia.org/wiki/Group_separator
+30,RS,^^,,Record Separator,,https://en.wikipedia.org/wiki/Record_separator
+31,US,^_,,Unit Separator,,https://en.wikipedia.org/wiki/Unit_separator
+127,DEL,^?,,Delete,,https://en.wikipedia.org/wiki/Delete_character
+173,SHY,,,Soft Hyphen,Syllable Hyphen,https://en.wikipedia.org/wiki/Soft_hyphen
