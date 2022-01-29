@@ -7,7 +7,7 @@ This is a searchable ASCII table.
 Use search to find what you need.
 
 
-<card><table><col><b>Need This?		<><><col><b>Search For		<><><col><b>See Result<><>
+<card><table><col><b>Need This?		<><><col><b>Search For		<><><col><b>See In Action<><>
 <col> <>
 <col>Letter A<><col><c>/<v>a<><><><col>(<l /s/ascii_table?search=%2Fa>/a<>)<>
 <col>By Number<><col><c><v>65<><><><col>(<l /s/ascii_table?search=65>65<>)<>
