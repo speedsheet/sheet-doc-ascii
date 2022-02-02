@@ -10,16 +10,16 @@ Use search to find what you need.
 
 <card><table><col><b>Need This?		<><><col><b>Search For		<><><col><b>See In Action<><>
 <col> <>
-<col>Letter A<><col><c>/<v>a<><><><col>(<l /s/ascii?search=%2Fa>/a<>)<>
-<col>By Number<><col><c><v>65<><><><col>(<l /s/ascii?search=65>65<>)<>
-<col>By Hex<><col><c>#<v>41<><><><col>(<l /s/ascii?search=%2341>#41<>)<>
-<col> <><col><c>0x<v>41<><><><col>(<l /s/ascii?search=0x41>0x41<>)<>
-<col>All Forms of A<><col><c>base-<v>a<><><><col>(<l /s/ascii?search=base-a>base-a<>)<>
+<col>Letter A<><col><c>/<v>a<><><><col><l /s/ascii?search=%2Fa>/a<><>
+<col>By Number<><col><c><v>65<><><><col><l /s/ascii?search=65>65<><>
+<col>By Hex<><col><c>#<v>41<><><><col><l /s/ascii?search=%2341>#41<><>
+<col> <><col><c>0x<v>41<><><><col><l /s/ascii?search=0x41>0x41<><>
+<col>All Forms of A<><col><c>base-<v>a<><><><col><l /s/ascii?search=base-a>base-a<><>
 <col> <>
-<col>Numbers<><col><c>numbers<><><col>(<l /s/ascii?search=numbers>numbers<>)<>
-<col>Punctuation<><col><c>punctuation<><><col>(<l /s/ascii?search=punctuation>punctuation<>)<>
+<col>Numbers<><col><c>numbers<><><col><l /s/ascii?search=numbers>numbers<><>
+<col>Punctuation<><col><c>punctuation<><><col><l /s/ascii?search=punctuation>punctuation<><>
 <col> <>
-<col>Help<><col><c>help<><><col>(<l /s/ascii?search=help>help<>)<><><>
+<col>Help<><col><c>help<><><col><l /s/ascii?search=help>help<><><><>
 
 
 # 0 NUL - Null
@@ -682,7 +682,7 @@ Single Quote
 Left Parenthesis
 Round Bracket
 
-<table><col>Character<><col>(<>
+<table><col>Character<><col><>
 <col>Decimal<><col><c>40<><>
 <col>Hex<><col><c>28<><>
 <col>Bin<><col><c>00101000<><>
