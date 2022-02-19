@@ -24,10 +24,12 @@ UMLAUT_CODES = to_codes('ÄäËëÏïÖöÜüÿŸ')
 RING_CODES = to_codes('Åå')
 
 DIACRITIC_CODES = to_codes("´^`~¨¯")
-CURRENCY_CODES = to_codes ('$¢¤£¥')
-
+CURRENCY_CODES = to_codes('$¢¤£¥')
+MATHS = to_codes('+-*/÷×=<>')
 NEWLINES = [10, 13]
-PUNCTUATION = to_codes('…"\'(){}[]--;:,!?.')
+NUMBERS = to_codes('0123456789¼½¾')
+PUNCTUATION = to_codes('…"\'(){}[]--;:,!?.¡¿')
+SYMBOLS = to_codes('!\"#$%&\'()*+,-./:;<=>?@[\\^_`{|}~¡¢£¤¥¦§©«¬®°±¶·»×÷…')
 
 CODE_0 = ord('0')
 CODE_9 = ord('9')
@@ -154,6 +156,9 @@ def is_currency (code):
 def is_diacritic (code):
 	return code in DIACRITIC_CODES
 
+def is_digit (code):
+	return between (code, CODE_0, CODE_9)
+
 def is_less_than (code):
 	return code == CODE_LESS_THAN
 
@@ -167,6 +172,9 @@ def is_lower_case (code):
 	return (between (code, CODE_EXCLAMATION, CODE_FORWARD_SLASH) or
 			between (code, CODE_COLON, CODE_AT))
 
+def is_math (code):
+	return code in MATHS
+
 def is_newline (code):
 	return code in NEWLINES
 
@@ -174,7 +182,7 @@ def is_non_breaking_space (code):
 	return code == CODE_NON_BREAKING_SPACE
 
 def is_number (code):
-	return between (code, CODE_0, CODE_9)
+	return code in NUMBERS
 
 def is_punctuation (code):
 	return code in PUNCTUATION
@@ -182,10 +190,13 @@ def is_punctuation (code):
 def is_space (code):
 	return code == CODE_SPACE
 
-def is_upper_case (code):
+def is_symbol (code):
+	return code in SYMBOLS
+
+def is_upper_case(code):
 	return between (code, CODE_UPPER_A, CODE_UPPER_Z)
 
-def is_unknown (code):
+def is_unknown(code):
 	return between (code, CODE_UNKNOWN_1_1, CODE_UNKNOWN_1_2)
 
 def to_bin(code):
@@ -235,20 +246,29 @@ class Ascii:
 	def is_control_char(self):
 		return is_control_char (self.code, self.name.lower)
 
+	def is_digit(self):
+		return is_digit (self.code)
+
 	def is_number(self):
 		return is_number (self.code)
 
 	def is_letter(self):
 		return is_letter(self.code)
 
+	def is_math(self):
+		return is_math(self.code)
+
 	def is_punctuation(self):
-		return is_punctuation (self.code)
+		return is_punctuation(self.code)
+
+	def is_symbol(self):
+		return is_symbol(self.code)
 
 	def is_lower_case(self):
-		return is_lower_case (self.code)
+		return is_lower_case(self.code)
 
 	def is_upper_case(self):
-		return is_upper_case (self.code)
+		return is_upper_case(self.code)
 
 	@property
 	def base_character(self):

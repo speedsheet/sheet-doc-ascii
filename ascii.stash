@@ -2,13 +2,12 @@
 <b>Find what you need, faster.<>
 
 
-### Using Search
+### Search It
 
 This is a searchable ASCII table.
 Use search to find what you need.
 
-
-<card><table><col><b>Need This?		<><><col><b>Search For:		<><><col><b>See Search In Action<><>
+<card><table><col><b>Need This?		<><><col><b>Search For:		<><><col><b>See Search In Action:<><>
 <col> <>
 <col>Letter A<><col><c>/<v>a<><><><col><l /s/ascii?search=%2Fa>/a<><>
 <col>by ASCII Code<><col><c><v>65<><><><col><l /s/ascii?search=65>65<><>
@@ -21,6 +20,7 @@ Use search to find what you need.
 <col>Punctuation<><col><c>punctuation<><><col><l /s/ascii?search=punctuation>punctuation<><>
 <col> <>
 <col>Help<><col><c>help<><><col><l /s/ascii?search=help>help<><><><>
+
 
 
 # 0 NUL - Null
@@ -571,7 +571,7 @@ Exclamation Point
 <col>More<><col><l>https://en.wikipedia.org/wiki/Exclamation_mark<><>
 <>
 @
-@ #21, 0x21, 00100001, 100001, punctuation, character-!, char-!, c-!, /!
+@ #21, 0x21, 00100001, 100001, punctuation, symbols, character-!, char-!, c-!, /!
 @ Exclamation Point
 
 
@@ -590,7 +590,7 @@ Inverted Commas
 <col>More<><col><l>https://en.wikipedia.org/wiki/Quotation_mark<><>
 <>
 @
-@ #22, 0x22, 00100010, 100010, punctuation, character-\", char-\", c-\", /\"
+@ #22, 0x22, 00100010, 100010, punctuation, symbols, character-\", char-\", c-\", /\"
 @ Quotes / Double Quote / Inverted Commas
 
 
@@ -608,7 +608,7 @@ Pound Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Number_sign<><>
 <>
 @
-@ #23, 0x23, 00100011, 100011, character-#, char-#, c-#, /#
+@ #23, 0x23, 00100011, 100011, symbols, character-#, char-#, c-#, /#
 @ Hash / Pound Sign
 
 
@@ -625,7 +625,7 @@ Peso Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Dollar_sign<><>
 <>
 @
-@ #24, 0x24, 00100100, 100100, currencies, currency, moneys, character-$, char-$, c-$, /$
+@ #24, 0x24, 00100100, 100100, currencies, currency, moneys, symbols, character-$, char-$, c-$, /$
 @ Peso Sign
 
 
@@ -641,7 +641,7 @@ Percent Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Percent_sign<><>
 <>
 @
-@ #25, 0x25, 00100101, 100101, character-%, char-%, c-%, /%
+@ #25, 0x25, 00100101, 100101, symbols, character-%, char-%, c-%, /%
 
 
 # 38 & - Ampersand
@@ -657,7 +657,7 @@ And Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Ampersand<><>
 <>
 @
-@ #26, 0x26, 00100110, 100110, character-&, char-&, c-&, /&
+@ #26, 0x26, 00100110, 100110, symbols, character-&, char-&, c-&, /&
 @ And Sign
 
 
@@ -674,7 +674,7 @@ Single Quote
 <col>More<><col><l>https://en.wikipedia.org/wiki/Apostrophe<><>
 <>
 @
-@ #27, 0x27, 00100111, 100111, punctuation, character-', char-', c-', /'
+@ #27, 0x27, 00100111, 100111, punctuation, symbols, character-', char-', c-', /'
 @ Single Quote
 
 
@@ -683,7 +683,7 @@ Single Quote
 Left Parenthesis
 Round Bracket
 
-<table><col>Character<><col><>
+<table><col>Character<><col>(<>
 <col>Decimal<><col><c>40<><>
 <col>Hex<><col><c>28<><>
 <col>Bin<><col><c>00101000<><>
@@ -691,7 +691,7 @@ Round Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Parenthesis<><>
 <>
 @
-@ #28, 0x28, 00101000, 101000, punctuation, character-(, char-(, c-(, /(
+@ #28, 0x28, 00101000, 101000, punctuation, symbols, character-(, char-(, c-(, /(
 @ Round Bracket
 
 
@@ -708,7 +708,7 @@ Round Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Parenthesis<><>
 <>
 @
-@ #29, 0x29, 00101001, 101001, punctuation, character-), char-), c-), /)
+@ #29, 0x29, 00101001, 101001, punctuation, symbols, character-), char-), c-), /)
 @ Round Bracket
 
 
@@ -725,7 +725,7 @@ Star
 <col>More<><col><l>https://en.wikipedia.org/wiki/Asterisk<><>
 <>
 @
-@ #2A, 0x2A, 00101010, 101010, character-*, char-*, c-*, /*
+@ #2A, 0x2A, 00101010, 101010, maths, mathematics, symbols, character-*, char-*, c-*, /*
 @ Star
 
 
@@ -741,7 +741,7 @@ Plus Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Plus_sign<><>
 <>
 @
-@ #2B, 0x2B, 00101011, 101011, character-+, char-+, c-+, /+
+@ #2B, 0x2B, 00101011, 101011, maths, mathematics, symbols, character-+, char-+, c-+, /+
 
 
 # 44 , - Comma
@@ -756,7 +756,7 @@ Comma
 <col>More<><col><l>https://en.wikipedia.org/wiki/Comma<><>
 <>
 @
-@ #2C, 0x2C, 00101100, 101100, punctuation, character-_, char-_, c-_, /_
+@ #2C, 0x2C, 00101100, 101100, punctuation, symbols, character-_, char-_, c-_, /_
 
 
 # 45 - - Minus Sign
@@ -772,7 +772,7 @@ Dash
 <col>More<><col><l>https://en.wikipedia.org/wiki/Minus_sign<><>
 <>
 @
-@ #2D, 0x2D, 00101101, 101101, punctuation, character--, char--, c--, /-
+@ #2D, 0x2D, 00101101, 101101, maths, mathematics, punctuation, symbols, character--, char--, c--, /-
 @ Dash
 
 
@@ -790,7 +790,7 @@ Full Point
 <col>More<><col><l>https://en.wikipedia.org/wiki/Full_stop<><>
 <>
 @
-@ #2E, 0x2E, 00101110, 101110, punctuation, character-., char-., c-., /.
+@ #2E, 0x2E, 00101110, 101110, punctuation, symbols, character-., char-., c-., /.
 @ Full Stop / Full Point
 
 
@@ -808,7 +808,7 @@ Solidus (Unicode)
 <col>More<><col><l>https://en.wikipedia.org/wiki/Slash_(punctuation)<><>
 <>
 @
-@ #2F, 0x2F, 00101111, 101111, character-/, char-/, c-/, //
+@ #2F, 0x2F, 00101111, 101111, maths, mathematics, symbols, character-/, char-/, c-/, //
 @ Oblique Stroke / Solidus (Unicode)
 
 
@@ -825,7 +825,7 @@ Zero
 <col>More<><col><l>https://en.wikipedia.org/wiki/0<><>
 <>
 @
-@ #30, 0x30, 00110000, 110000, numbers, character-0, char-0, c-0, /0
+@ #30, 0x30, 00110000, 110000, digits, numbers, character-0, char-0, c-0, /0
 @ Zero
 
 
@@ -842,7 +842,7 @@ One
 <col>More<><col><l>https://en.wikipedia.org/wiki/1<><>
 <>
 @
-@ #31, 0x31, 00110001, 110001, numbers, character-1, char-1, c-1, /1
+@ #31, 0x31, 00110001, 110001, digits, numbers, character-1, char-1, c-1, /1
 @ One
 
 
@@ -859,7 +859,7 @@ Two
 <col>More<><col><l>https://en.wikipedia.org/wiki/2<><>
 <>
 @
-@ #32, 0x32, 00110010, 110010, numbers, character-2, char-2, c-2, /2
+@ #32, 0x32, 00110010, 110010, digits, numbers, character-2, char-2, c-2, /2
 @ Two
 
 
@@ -876,7 +876,7 @@ Three
 <col>More<><col><l>https://en.wikipedia.org/wiki/3<><>
 <>
 @
-@ #33, 0x33, 00110011, 110011, numbers, character-3, char-3, c-3, /3
+@ #33, 0x33, 00110011, 110011, digits, numbers, character-3, char-3, c-3, /3
 @ Three
 
 
@@ -893,7 +893,7 @@ Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/4<><>
 <>
 @
-@ #34, 0x34, 00110100, 110100, numbers, character-4, char-4, c-4, /4
+@ #34, 0x34, 00110100, 110100, digits, numbers, character-4, char-4, c-4, /4
 @ Four
 
 
@@ -910,7 +910,7 @@ Five
 <col>More<><col><l>https://en.wikipedia.org/wiki/5<><>
 <>
 @
-@ #35, 0x35, 00110101, 110101, numbers, character-5, char-5, c-5, /5
+@ #35, 0x35, 00110101, 110101, digits, numbers, character-5, char-5, c-5, /5
 @ Five
 
 
@@ -927,7 +927,7 @@ Six
 <col>More<><col><l>https://en.wikipedia.org/wiki/6<><>
 <>
 @
-@ #36, 0x36, 00110110, 110110, numbers, character-6, char-6, c-6, /6
+@ #36, 0x36, 00110110, 110110, digits, numbers, character-6, char-6, c-6, /6
 @ Six
 
 
@@ -944,7 +944,7 @@ Seven
 <col>More<><col><l>https://en.wikipedia.org/wiki/7<><>
 <>
 @
-@ #37, 0x37, 00110111, 110111, numbers, character-7, char-7, c-7, /7
+@ #37, 0x37, 00110111, 110111, digits, numbers, character-7, char-7, c-7, /7
 @ Seven
 
 
@@ -961,7 +961,7 @@ Eight
 <col>More<><col><l>https://en.wikipedia.org/wiki/8<><>
 <>
 @
-@ #38, 0x38, 00111000, 111000, numbers, character-8, char-8, c-8, /8
+@ #38, 0x38, 00111000, 111000, digits, numbers, character-8, char-8, c-8, /8
 @ Eight
 
 
@@ -978,7 +978,7 @@ Nine
 <col>More<><col><l>https://en.wikipedia.org/wiki/9<><>
 <>
 @
-@ #39, 0x39, 00111001, 111001, numbers, character-9, char-9, c-9, /9
+@ #39, 0x39, 00111001, 111001, digits, numbers, character-9, char-9, c-9, /9
 @ Nine
 
 
@@ -994,7 +994,7 @@ Colon
 <col>More<><col><l>https://en.wikipedia.org/wiki/Colon_(punctuation)<><>
 <>
 @
-@ #3A, 0x3A, 00111010, 111010, punctuation, character-:, char-:, c-:, /:
+@ #3A, 0x3A, 00111010, 111010, punctuation, symbols, character-:, char-:, c-:, /:
 
 
 # 59 ; - Semicolon
@@ -1010,7 +1010,7 @@ Semi-colon
 <col>More<><col><l>https://en.wikipedia.org/wiki/Semicolon<><>
 <>
 @
-@ #3B, 0x3B, 00111011, 111011, punctuation, character-;, char-;, c-;, /;
+@ #3B, 0x3B, 00111011, 111011, punctuation, symbols, character-;, char-;, c-;, /;
 @ Semi-colon
 
 
@@ -1027,7 +1027,7 @@ Left Angle Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Less-than_sign<><>
 <>
 @
-@ #3C, 0x3C, 00111100, 111100, character-<, char-<, c-<, /<
+@ #3C, 0x3C, 00111100, 111100, maths, mathematics, symbols, character-<, char-<, c-<, /<
 @ Left Angle Bracket
 
 
@@ -1043,7 +1043,7 @@ Equals Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Equals_sign<><>
 <>
 @
-@ #3D, 0x3D, 00111101, 111101, character-=, char-=, c-=, /=
+@ #3D, 0x3D, 00111101, 111101, maths, mathematics, symbols, character-=, char-=, c-=, /=
 
 
 # 62 > - Greater-Than Sign
@@ -1059,7 +1059,7 @@ Right Angle Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Greater-than_sign<><>
 <>
 @
-@ #3E, 0x3E, 00111110, 111110, character->, char->, c->, />
+@ #3E, 0x3E, 00111110, 111110, maths, mathematics, symbols, character->, char->, c->, />
 @ Right Angle Bracket
 
 
@@ -1075,7 +1075,7 @@ Question Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Question_mark<><>
 <>
 @
-@ #3F, 0x3F, 00111111, 111111, punctuation, character-?, char-?, c-?, /?
+@ #3F, 0x3F, 00111111, 111111, punctuation, symbols, character-?, char-?, c-?, /?
 
 
 # 64 @ - At Sign
@@ -1091,7 +1091,7 @@ At Symbol
 <col>More<><col><l>https://en.wikipedia.org/wiki/@<><>
 <>
 @
-@ #40, 0x40, 01000000, 1000000, character-@, char-@, c-@, /@
+@ #40, 0x40, 01000000, 1000000, symbols, character-@, char-@, c-@, /@
 @ At Symbol
 
 
@@ -1497,7 +1497,7 @@ Left Square Bracket
 <col>More<><col><l>https://en.wikipedia.org/wiki/Square_brackets<><>
 <>
 @
-@ #5B, 0x5B, 01011011, 1011011, punctuation, character-[, char-[, c-[, /[
+@ #5B, 0x5B, 01011011, 1011011, punctuation, symbols, character-[, char-[, c-[, /[
 
 
 # 92 \\ - Backslash
@@ -1513,7 +1513,7 @@ Reverse Slash
 <col>More<><col><l>https://en.wikipedia.org/wiki/Backslash<><>
 <>
 @
-@ #5C, 0x5C, 01011100, 1011100, \\\\, character-\\, char-\\, c-\\, /\\
+@ #5C, 0x5C, 01011100, 1011100, \\\\, symbols, character-\\, char-\\, c-\\, /\\
 @ Reverse Slash
 
 
@@ -1544,7 +1544,7 @@ Caret
 <col>More<><col><l>https://en.wikipedia.org/wiki/Caret<><>
 <>
 @
-@ #5E, 0x5E, 01011110, 1011110, diacritics, accents, character-^, char-^, c-^, /^
+@ #5E, 0x5E, 01011110, 1011110, diacritics, accents, symbols, character-^, char-^, c-^, /^
 
 
 # 95 _ - Underscore
@@ -1561,13 +1561,14 @@ Low Line
 <col>More<><col><l>https://en.wikipedia.org/wiki/Underscore<><>
 <>
 @
-@ #5F, 0x5F, 01011111, 1011111, character-_, char-_, c-_, /_
+@ #5F, 0x5F, 01011111, 1011111, symbols, character-_, char-_, c-_, /_
 @ Underline / Low Line
 
 
 # 96 ` - Grave Accent
 
 Grave Accent
+Backtick
 
 <table><col>Character<><col>`<>
 <col>Decimal<><col><c>96<><>
@@ -1577,7 +1578,8 @@ Grave Accent
 <col>More<><col><l>https://en.wikipedia.org/wiki/Grave_accent<><>
 <>
 @
-@ #60, 0x60, 01100000, 1100000, diacritics, accents, character-`, char-`, c-`, /`
+@ #60, 0x60, 01100000, 1100000, diacritics, accents, symbols, character-`, char-`, c-`, /`
+@ Backtick
 
 
 # 97 a - Lower Case A
@@ -1984,7 +1986,7 @@ Braces
 <col>More<><col><l>https://en.wikipedia.org/wiki/Curly_brackets<><>
 <>
 @
-@ #7B, 0x7B, 01111011, 1111011, punctuation, character-{, char-{, c-{, /{
+@ #7B, 0x7B, 01111011, 1111011, punctuation, symbols, character-{, char-{, c-{, /{
 @ Left Curly Brackets / Braces
 
 
@@ -2001,7 +2003,7 @@ Pipe
 <col>More<><col><l>https://en.wikipedia.org/wiki/Vertical_bar<><>
 <>
 @
-@ #7C, 0x7C, 01111100, 1111100, character-|, char-|, c-|, /|
+@ #7C, 0x7C, 01111100, 1111100, symbols, character-|, char-|, c-|, /|
 @ Pipe
 
 
@@ -2019,7 +2021,7 @@ Braces
 <col>More<><col><l>https://en.wikipedia.org/wiki/Curly_brackets<><>
 <>
 @
-@ #7D, 0x7D, 01111101, 1111101, punctuation, character-}, char-}, c-}, /}
+@ #7D, 0x7D, 01111101, 1111101, punctuation, symbols, character-}, char-}, c-}, /}
 @ Right Curly Brackets / Braces
 
 
@@ -2035,7 +2037,7 @@ Tilde
 <col>More<><col><l>https://en.wikipedia.org/wiki/Tilde<><>
 <>
 @
-@ #7E, 0x7E, 01111110, 1111110, diacritics, accents, character-~, char-~, c-~, /~
+@ #7E, 0x7E, 01111110, 1111110, diacritics, accents, symbols, character-~, char-~, c-~, /~
 
 
 # 127 DEL - Delete
@@ -2469,7 +2471,7 @@ Inverted Exclamation Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Inverted_question_and_exclamation_marks<><>
 <>
 @
-@ #A1, 0xA1, 10100001, 10100001, character-¡, char-¡, c-¡, /¡
+@ #A1, 0xA1, 10100001, 10100001, punctuation, symbols, character-¡, char-¡, c-¡, /¡
 
 
 # 162 ¢ - Cent
@@ -2484,7 +2486,7 @@ Cent
 <col>More<><col><l>https://en.wikipedia.org/wiki/Cent_(currency)<><>
 <>
 @
-@ #A2, 0xA2, 10100010, 10100010, currencies, currency, moneys, character-¢, char-¢, c-¢, /¢
+@ #A2, 0xA2, 10100010, 10100010, currencies, currency, moneys, symbols, character-¢, char-¢, c-¢, /¢
 
 
 # 163 £ - Pound Sign
@@ -2499,7 +2501,7 @@ Pound Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Pound_sign<><>
 <>
 @
-@ #A3, 0xA3, 10100011, 10100011, currencies, currency, moneys, character-£, char-£, c-£, /£
+@ #A3, 0xA3, 10100011, 10100011, currencies, currency, moneys, symbols, character-£, char-£, c-£, /£
 
 
 # 164 ¤ - Currency Sign
@@ -2515,7 +2517,7 @@ Scarab
 <col>More<><col><l>https://en.wikipedia.org/wiki/Currency_sign_(typography)<><>
 <>
 @
-@ #A4, 0xA4, 10100100, 10100100, currencies, currency, moneys, character-¤, char-¤, c-¤, /¤
+@ #A4, 0xA4, 10100100, 10100100, currencies, currency, moneys, symbols, character-¤, char-¤, c-¤, /¤
 @ Scarab
 
 
@@ -2532,7 +2534,7 @@ Yuan Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Yen_sign<><>
 <>
 @
-@ #A5, 0xA5, 10100101, 10100101, currencies, currency, moneys, character-¥, char-¥, c-¥, /¥
+@ #A5, 0xA5, 10100101, 10100101, currencies, currency, moneys, symbols, character-¥, char-¥, c-¥, /¥
 @ Yuan Sign
 
 
@@ -2549,7 +2551,7 @@ Broken Bar
 <col>More<><col><l>https://en.wikipedia.org/wiki/Vertical_bar#Solid_vertical_bar_vs_broken_bar<><>
 <>
 @
-@ #A6, 0xA6, 10100110, 10100110, character-¦, char-¦, c-¦, /¦
+@ #A6, 0xA6, 10100110, 10100110, symbols, character-¦, char-¦, c-¦, /¦
 @ Broken Bar
 
 
@@ -2565,7 +2567,7 @@ Section Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Section_sign<><>
 <>
 @
-@ #A7, 0xA7, 10100111, 10100111, character-§, char-§, c-§, /§
+@ #A7, 0xA7, 10100111, 10100111, symbols, character-§, char-§, c-§, /§
 
 
 # 168 ¨ - Umlaut
@@ -2599,7 +2601,7 @@ Copyright Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Copyright_symbol<><>
 <>
 @
-@ #A9, 0xA9, 10101001, 10101001, character-©, char-©, c-©, /©
+@ #A9, 0xA9, 10101001, 10101001, symbols, character-©, char-©, c-©, /©
 @ Copyright Sign
 
 
@@ -2630,7 +2632,7 @@ Left Guillemet
 <col>More<><col><l>https://en.wikipedia.org/wiki/Guillemet<><>
 <>
 @
-@ #AB, 0xAB, 10101011, 10101011, character-«, char-«, c-«, /«
+@ #AB, 0xAB, 10101011, 10101011, symbols, character-«, char-«, c-«, /«
 
 
 # 172 ¬ - Negation
@@ -2645,7 +2647,7 @@ Negation
 <col>More<><col><l>https://en.wikipedia.org/wiki/Negation<><>
 <>
 @
-@ #AC, 0xAC, 10101100, 10101100, character-¬, char-¬, c-¬, /¬
+@ #AC, 0xAC, 10101100, 10101100, symbols, character-¬, char-¬, c-¬, /¬
 
 
 # 173 SHY - Soft Hyphen
@@ -2677,7 +2679,7 @@ Registered Trademark Symbol
 <col>More<><col><l>https://en.wikipedia.org/wiki/Registered_trademark_symbol<><>
 <>
 @
-@ #AE, 0xAE, 10101110, 10101110, character-®, char-®, c-®, /®
+@ #AE, 0xAE, 10101110, 10101110, symbols, character-®, char-®, c-®, /®
 
 
 # 175 ¯ - Macron (Diacritic)
@@ -2712,7 +2714,7 @@ Degree Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Degree_symbol<><>
 <>
 @
-@ #B0, 0xB0, 10110000, 10110000, character-°, char-°, c-°, /°
+@ #B0, 0xB0, 10110000, 10110000, symbols, character-°, char-°, c-°, /°
 @ Degree Sign
 
 
@@ -2728,7 +2730,7 @@ Plus-Minus Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Plus%E2%80%93minus_sign<><>
 <>
 @
-@ #B1, 0xB1, 10110001, 10110001, character-±, char-±, c-±, /±
+@ #B1, 0xB1, 10110001, 10110001, symbols, character-±, char-±, c-±, /±
 
 
 # 178 ² - Superscript 2
@@ -2807,7 +2809,7 @@ Paragraph
 <col>More<><col><l>https://en.wikipedia.org/wiki/Pilcrow<><>
 <>
 @
-@ #B6, 0xB6, 10110110, 10110110, character-¶, char-¶, c-¶, /¶
+@ #B6, 0xB6, 10110110, 10110110, symbols, character-¶, char-¶, c-¶, /¶
 @ Paragraph Mark / Paragraph
 
 
@@ -2826,7 +2828,7 @@ Centered Dot
 <col>More<><col><l>https://en.wikipedia.org/wiki/Interpunct<><>
 <>
 @
-@ #B7, 0xB7, 10110111, 10110111, character-·, char-·, c-·, /·
+@ #B7, 0xB7, 10110111, 10110111, symbols, character-·, char-·, c-·, /·
 @ Middle Dot / Middot / Centered Dot
 
 
@@ -2889,7 +2891,7 @@ Right Guillemet
 <col>More<><col><l>https://en.wikipedia.org/wiki/Guillemet<><>
 <>
 @
-@ #BB, 0xBB, 10111011, 10111011, character-», char-», c-», /»
+@ #BB, 0xBB, 10111011, 10111011, symbols, character-», char-», c-», /»
 
 
 # 188 ¼ - Quarter Fraction
@@ -2905,7 +2907,7 @@ One Over Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/Fraction_(mathematics)#Typographical_variations<><>
 <>
 @
-@ #BC, 0xBC, 10111100, 10111100, character-¼, char-¼, c-¼, /¼
+@ #BC, 0xBC, 10111100, 10111100, numbers, character-¼, char-¼, c-¼, /¼
 @ One Over Four
 
 
@@ -2923,7 +2925,7 @@ One Over Two
 <col>More<><col><l>https://en.wikipedia.org/wiki/One_half<><>
 <>
 @
-@ #BD, 0xBD, 10111101, 10111101, character-½, char-½, c-½, /½
+@ #BD, 0xBD, 10111101, 10111101, numbers, character-½, char-½, c-½, /½
 @ One Half / One Over Two
 
 
@@ -2940,7 +2942,7 @@ Three Over Four
 <col>More<><col><l>https://en.wikipedia.org/wiki/Fraction#Typographical_variations<><>
 <>
 @
-@ #BE, 0xBE, 10111110, 10111110, character-¾, char-¾, c-¾, /¾
+@ #BE, 0xBE, 10111110, 10111110, numbers, character-¾, char-¾, c-¾, /¾
 @ Three Over Four
 
 
@@ -2956,7 +2958,7 @@ Inverted Question Mark
 <col>More<><col><l>https://en.wikipedia.org/wiki/Inverted_question_mark<><>
 <>
 @
-@ #BF, 0xBF, 10111111, 10111111, character-¿, char-¿, c-¿, /¿
+@ #BF, 0xBF, 10111111, 10111111, punctuation, character-¿, char-¿, c-¿, /¿
 
 
 # 192 À - Upper Case A-Grave
@@ -3319,7 +3321,7 @@ Times Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Multiplication_sign<><>
 <>
 @
-@ #D7, 0xD7, 11010111, 11010111, character-×, char-×, c-×, /×
+@ #D7, 0xD7, 11010111, 11010111, maths, mathematics, symbols, character-×, char-×, c-×, /×
 @ Times Sign
 
 
@@ -3809,7 +3811,7 @@ Divide Sign
 <col>More<><col><l>https://en.wikipedia.org/wiki/Obelus<><>
 <>
 @
-@ #F7, 0xF7, 11110111, 11110111, character-÷, char-÷, c-÷, /÷
+@ #F7, 0xF7, 11110111, 11110111, maths, mathematics, symbols, character-÷, char-÷, c-÷, /÷
 @ Division Sign / Divide Sign
 
 

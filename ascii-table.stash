@@ -1,27 +1,8 @@
 # <#>ASCII Table<> SpeedSheet
 <b>Find what you need, faster.<>
 
-### In this SpeedSheet
+A searchable ASCII table.
 
-This is a searchable ASCII table.
-Use search to find what you need.
-
-
-<card><table><col><b>Need This?		<><><col><b>Search For		<><><col><b>See In Action<><>
-<col> <>
-<col>Letter A<><col><c>/<v>a<><><><col><l /s/ascii_table?search=%2Fa>/a<><>
-<col>By Number<><col><c><v>65<><><><col><l /s/ascii_table?search=65>65<><>
-<col>By Hex<><col><c>#<v>41<><><><col><l /s/ascii_table?search=%2341>#41<><>
-<col> <><col><c>0x<v>41<><><><col><l /s/ascii_table?search=0x41>0x41<><>
-<col>All Forms of A<><col><c>base-<v>a<><><><col><l /s/ascii_table?search=base-a>base-a<><>
-<col> <>
-<col>Numbers<><col><c>numbers<><><col><l /s/ascii_table?search=numbers>numbers<><>
-<col>Punctuation<><col><c>punctuation<><><col><l /s/ascii_table?search=punctuation>punctuation<><>
-<col> <>
-<col>Help<><col><c>help<><><col><l /s/ascii_table?search=help>help<><><><>
-
-
-# ASCII
 
 #### <table><col><c>  0<> <><col><c>00<> <><col><c>00000000<> <><col><c>NUL<> <><col>Null <><>
 @ #00, 0x00, 00000000, 0, control characters, ^@, \\\0
@@ -90,69 +71,69 @@ Use search to find what you need.
 #### <table><col><c> 32<> <><col><c>20<> <><col><c>00100000<> <><col><c>   <> <><col>Space <><>
 @ #20, 0x20, 00100000, 100000
 #### <table><col><c> 33<> <><col><c>21<> <><col><c>00100001<> <><col><c>!  <> <><col>Exclamation Mark / Exclamation Point <><>
-@ #21, 0x21, 00100001, 100001, punctuation, character-!, char-!, c-!, /!
+@ #21, 0x21, 00100001, 100001, punctuation, symbols, character-!, char-!, c-!, /!
 #### <table><col><c> 34<> <><col><c>22<> <><col><c>00100010<> <><col><c>"  <> <><col>Quotation Mark / Quotes / Double Quote / Inverted Commas <><>
-@ #22, 0x22, 00100010, 100010, punctuation, character-\", char-\", c-\", /\"
+@ #22, 0x22, 00100010, 100010, punctuation, symbols, character-\", char-\", c-\", /\"
 #### <table><col><c> 35<> <><col><c>23<> <><col><c>00100011<> <><col><c>#  <> <><col>Number Sign / Hash / Pound Sign <><>
-@ #23, 0x23, 00100011, 100011, character-#, char-#, c-#, /#
+@ #23, 0x23, 00100011, 100011, symbols, character-#, char-#, c-#, /#
 #### <table><col><c> 36<> <><col><c>24<> <><col><c>00100100<> <><col><c>$  <> <><col>Dollar Sign / Peso Sign <><>
-@ #24, 0x24, 00100100, 100100, currencies, currency, moneys, character-$, char-$, c-$, /$
+@ #24, 0x24, 00100100, 100100, currencies, currency, moneys, symbols, character-$, char-$, c-$, /$
 #### <table><col><c> 37<> <><col><c>25<> <><col><c>00100101<> <><col><c>%  <> <><col>Percent Sign <><>
-@ #25, 0x25, 00100101, 100101, character-%, char-%, c-%, /%
+@ #25, 0x25, 00100101, 100101, symbols, character-%, char-%, c-%, /%
 #### <table><col><c> 38<> <><col><c>26<> <><col><c>00100110<> <><col><c>&  <> <><col>Ampersand / And Sign <><>
-@ #26, 0x26, 00100110, 100110, character-&, char-&, c-&, /&
+@ #26, 0x26, 00100110, 100110, symbols, character-&, char-&, c-&, /&
 #### <table><col><c> 39<> <><col><c>27<> <><col><c>00100111<> <><col><c>'  <> <><col>Apostrophe / Single Quote <><>
-@ #27, 0x27, 00100111, 100111, punctuation, character-', char-', c-', /'
+@ #27, 0x27, 00100111, 100111, punctuation, symbols, character-', char-', c-', /'
 #### <table><col><c> 40<> <><col><c>28<> <><col><c>00101000<> <><col><c>(  <> <><col>Left Parenthesis / Round Bracket <><>
-@ #28, 0x28, 00101000, 101000, punctuation, character-(, char-(, c-(, /(
+@ #28, 0x28, 00101000, 101000, punctuation, symbols, character-(, char-(, c-(, /(
 #### <table><col><c> 41<> <><col><c>29<> <><col><c>00101001<> <><col><c>)  <> <><col>Right Parenthesis / Round Bracket <><>
-@ #29, 0x29, 00101001, 101001, punctuation, character-), char-), c-), /)
+@ #29, 0x29, 00101001, 101001, punctuation, symbols, character-), char-), c-), /)
 #### <table><col><c> 42<> <><col><c>2A<> <><col><c>00101010<> <><col><c>*  <> <><col>Asterisk / Star <><>
-@ #2A, 0x2A, 00101010, 101010, character-*, char-*, c-*, /*
+@ #2A, 0x2A, 00101010, 101010, maths, mathematics, symbols, character-*, char-*, c-*, /*
 #### <table><col><c> 43<> <><col><c>2B<> <><col><c>00101011<> <><col><c>+  <> <><col>Plus Sign <><>
-@ #2B, 0x2B, 00101011, 101011, character-+, char-+, c-+, /+
+@ #2B, 0x2B, 00101011, 101011, maths, mathematics, symbols, character-+, char-+, c-+, /+
 #### <table><col><c> 44<> <><col><c>2C<> <><col><c>00101100<> <><col><c>,  <> <><col>Comma <><>
-@ #2C, 0x2C, 00101100, 101100, punctuation, character-_, char-_, c-_, /_
+@ #2C, 0x2C, 00101100, 101100, punctuation, symbols, character-_, char-_, c-_, /_
 #### <table><col><c> 45<> <><col><c>2D<> <><col><c>00101101<> <><col><c>-  <> <><col>Minus Sign / Dash <><>
-@ #2D, 0x2D, 00101101, 101101, punctuation, character--, char--, c--, /-
+@ #2D, 0x2D, 00101101, 101101, maths, mathematics, punctuation, symbols, character--, char--, c--, /-
 #### <table><col><c> 46<> <><col><c>2E<> <><col><c>00101110<> <><col><c>.  <> <><col>Period / Full Stop / Full Point <><>
-@ #2E, 0x2E, 00101110, 101110, punctuation, character-., char-., c-., /.
+@ #2E, 0x2E, 00101110, 101110, punctuation, symbols, character-., char-., c-., /.
 #### <table><col><c> 47<> <><col><c>2F<> <><col><c>00101111<> <><col><c>/  <> <><col>Forward Slash / Oblique Stroke / Solidus (Unicode) <><>
-@ #2F, 0x2F, 00101111, 101111, character-/, char-/, c-/, //
+@ #2F, 0x2F, 00101111, 101111, maths, mathematics, symbols, character-/, char-/, c-/, //
 #### <table><col><c> 48<> <><col><c>30<> <><col><c>00110000<> <><col><c>0  <> <><col>Number 0 / Zero <><>
-@ #30, 0x30, 00110000, 110000, numbers, character-0, char-0, c-0, /0
+@ #30, 0x30, 00110000, 110000, digits, numbers, character-0, char-0, c-0, /0
 #### <table><col><c> 49<> <><col><c>31<> <><col><c>00110001<> <><col><c>1  <> <><col>Number 1 / One <><>
-@ #31, 0x31, 00110001, 110001, numbers, character-1, char-1, c-1, /1
+@ #31, 0x31, 00110001, 110001, digits, numbers, character-1, char-1, c-1, /1
 #### <table><col><c> 50<> <><col><c>32<> <><col><c>00110010<> <><col><c>2  <> <><col>Number 2 / Two <><>
-@ #32, 0x32, 00110010, 110010, numbers, character-2, char-2, c-2, /2
+@ #32, 0x32, 00110010, 110010, digits, numbers, character-2, char-2, c-2, /2
 #### <table><col><c> 51<> <><col><c>33<> <><col><c>00110011<> <><col><c>3  <> <><col>Number 3 / Three <><>
-@ #33, 0x33, 00110011, 110011, numbers, character-3, char-3, c-3, /3
+@ #33, 0x33, 00110011, 110011, digits, numbers, character-3, char-3, c-3, /3
 #### <table><col><c> 52<> <><col><c>34<> <><col><c>00110100<> <><col><c>4  <> <><col>Number 4 / Four <><>
-@ #34, 0x34, 00110100, 110100, numbers, character-4, char-4, c-4, /4
+@ #34, 0x34, 00110100, 110100, digits, numbers, character-4, char-4, c-4, /4
 #### <table><col><c> 53<> <><col><c>35<> <><col><c>00110101<> <><col><c>5  <> <><col>Number 5 / Five <><>
-@ #35, 0x35, 00110101, 110101, numbers, character-5, char-5, c-5, /5
+@ #35, 0x35, 00110101, 110101, digits, numbers, character-5, char-5, c-5, /5
 #### <table><col><c> 54<> <><col><c>36<> <><col><c>00110110<> <><col><c>6  <> <><col>Number 6 / Six <><>
-@ #36, 0x36, 00110110, 110110, numbers, character-6, char-6, c-6, /6
+@ #36, 0x36, 00110110, 110110, digits, numbers, character-6, char-6, c-6, /6
 #### <table><col><c> 55<> <><col><c>37<> <><col><c>00110111<> <><col><c>7  <> <><col>Number 7 / Seven <><>
-@ #37, 0x37, 00110111, 110111, numbers, character-7, char-7, c-7, /7
+@ #37, 0x37, 00110111, 110111, digits, numbers, character-7, char-7, c-7, /7
 #### <table><col><c> 56<> <><col><c>38<> <><col><c>00111000<> <><col><c>8  <> <><col>Number 8 / Eight <><>
-@ #38, 0x38, 00111000, 111000, numbers, character-8, char-8, c-8, /8
+@ #38, 0x38, 00111000, 111000, digits, numbers, character-8, char-8, c-8, /8
 #### <table><col><c> 57<> <><col><c>39<> <><col><c>00111001<> <><col><c>9  <> <><col>Number 9 / Nine <><>
-@ #39, 0x39, 00111001, 111001, numbers, character-9, char-9, c-9, /9
+@ #39, 0x39, 00111001, 111001, digits, numbers, character-9, char-9, c-9, /9
 #### <table><col><c> 58<> <><col><c>3A<> <><col><c>00111010<> <><col><c>:  <> <><col>Colon <><>
-@ #3A, 0x3A, 00111010, 111010, punctuation, character-:, char-:, c-:, /:
+@ #3A, 0x3A, 00111010, 111010, punctuation, symbols, character-:, char-:, c-:, /:
 #### <table><col><c> 59<> <><col><c>3B<> <><col><c>00111011<> <><col><c>;  <> <><col>Semicolon / Semi-colon <><>
-@ #3B, 0x3B, 00111011, 111011, punctuation, character-;, char-;, c-;, /;
+@ #3B, 0x3B, 00111011, 111011, punctuation, symbols, character-;, char-;, c-;, /;
 #### <table><col><c> 60<> <><col><c>3C<> <><col><c>00111100<> <><col><c>\< <> <><col>Less-Than Sign / Left Angle Bracket <><>
-@ #3C, 0x3C, 00111100, 111100, character-<, char-<, c-<, /<
+@ #3C, 0x3C, 00111100, 111100, maths, mathematics, symbols, character-<, char-<, c-<, /<
 #### <table><col><c> 61<> <><col><c>3D<> <><col><c>00111101<> <><col><c>=  <> <><col>Equals Sign <><>
-@ #3D, 0x3D, 00111101, 111101, character-=, char-=, c-=, /=
+@ #3D, 0x3D, 00111101, 111101, maths, mathematics, symbols, character-=, char-=, c-=, /=
 #### <table><col><c> 62<> <><col><c>3E<> <><col><c>00111110<> <><col><c>>  <> <><col>Greater-Than Sign / Right Angle Bracket <><>
-@ #3E, 0x3E, 00111110, 111110, character->, char->, c->, />
+@ #3E, 0x3E, 00111110, 111110, maths, mathematics, symbols, character->, char->, c->, />
 #### <table><col><c> 63<> <><col><c>3F<> <><col><c>00111111<> <><col><c>?  <> <><col>Question Mark <><>
-@ #3F, 0x3F, 00111111, 111111, punctuation, character-?, char-?, c-?, /?
+@ #3F, 0x3F, 00111111, 111111, punctuation, symbols, character-?, char-?, c-?, /?
 #### <table><col><c> 64<> <><col><c>40<> <><col><c>01000000<> <><col><c>@  <> <><col>At Sign / At Symbol <><>
-@ #40, 0x40, 01000000, 1000000, character-@, char-@, c-@, /@
+@ #40, 0x40, 01000000, 1000000, symbols, character-@, char-@, c-@, /@
 #### <table><col><c> 65<> <><col><c>41<> <><col><c>01000001<> <><col><c>A  <> <><col>Upper Case A <><>
 @ #41, 0x41, 01000001, 1000001, base-a, -a, vowels, alphabet, letters, character-A, char-A, c-A, /A
 #### <table><col><c> 66<> <><col><c>42<> <><col><c>01000010<> <><col><c>B  <> <><col>Upper Case B <><>
@@ -206,17 +187,17 @@ Use search to find what you need.
 #### <table><col><c> 90<> <><col><c>5A<> <><col><c>01011010<> <><col><c>Z  <> <><col>Upper Case Z <><>
 @ #5A, 0x5A, 01011010, 1011010, alphabet, letters, character-Z, char-Z, c-Z, /Z
 #### <table><col><c> 91<> <><col><c>5B<> <><col><c>01011011<> <><col><c>[  <> <><col>Left Square Bracket <><>
-@ #5B, 0x5B, 01011011, 1011011, punctuation, character-[, char-[, c-[, /[
+@ #5B, 0x5B, 01011011, 1011011, punctuation, symbols, character-[, char-[, c-[, /[
 #### <table><col><c> 92<> <><col><c>5C<> <><col><c>01011100<> <><col><c>\\  <> <><col>Backslash / Reverse Slash <><>
-@ #5C, 0x5C, 01011100, 1011100, \\\\, character-\\, char-\\, c-\\, /\\
+@ #5C, 0x5C, 01011100, 1011100, \\\\, symbols, character-\\, char-\\, c-\\, /\\
 #### <table><col><c> 93<> <><col><c>5D<> <><col><c>01011101<> <><col><c>]  <> <><col>Right Square Bracket <><>
 @ #5D, 0x5D, 01011101, 1011101, punctuation, character-], char-], c-], /]
 #### <table><col><c> 94<> <><col><c>5E<> <><col><c>01011110<> <><col><c>^  <> <><col>Caret <><>
-@ #5E, 0x5E, 01011110, 1011110, diacritics, accents, character-^, char-^, c-^, /^
+@ #5E, 0x5E, 01011110, 1011110, diacritics, accents, symbols, character-^, char-^, c-^, /^
 #### <table><col><c> 95<> <><col><c>5F<> <><col><c>01011111<> <><col><c>_  <> <><col>Underscore / Underline / Low Line <><>
-@ #5F, 0x5F, 01011111, 1011111, character-_, char-_, c-_, /_
-#### <table><col><c> 96<> <><col><c>60<> <><col><c>01100000<> <><col><c>`  <> <><col>Grave Accent <><>
-@ #60, 0x60, 01100000, 1100000, diacritics, accents, character-`, char-`, c-`, /`
+@ #5F, 0x5F, 01011111, 1011111, symbols, character-_, char-_, c-_, /_
+#### <table><col><c> 96<> <><col><c>60<> <><col><c>01100000<> <><col><c>`  <> <><col>Grave Accent / Backtick <><>
+@ #60, 0x60, 01100000, 1100000, diacritics, accents, symbols, character-`, char-`, c-`, /`
 #### <table><col><c> 97<> <><col><c>61<> <><col><c>01100001<> <><col><c>a  <> <><col>Lower Case A <><>
 @ #61, 0x61, 01100001, 1100001, base-a, -a, vowels, alphabet, letters, character-a, char-a, c-a, /a
 #### <table><col><c> 98<> <><col><c>62<> <><col><c>01100010<> <><col><c>b  <> <><col>Lower Case B <><>
@@ -270,13 +251,13 @@ Use search to find what you need.
 #### <table><col><c>122<> <><col><c>7A<> <><col><c>01111010<> <><col><c>z  <> <><col>Lower Case Z <><>
 @ #7A, 0x7A, 01111010, 1111010, alphabet, letters, character-z, char-z, c-z, /z
 #### <table><col><c>123<> <><col><c>7B<> <><col><c>01111011<> <><col><c>{  <> <><col>Left Bracket / Left Curly Brackets / Braces <><>
-@ #7B, 0x7B, 01111011, 1111011, punctuation, character-{, char-{, c-{, /{
+@ #7B, 0x7B, 01111011, 1111011, punctuation, symbols, character-{, char-{, c-{, /{
 #### <table><col><c>124<> <><col><c>7C<> <><col><c>01111100<> <><col><c>|  <> <><col>Vertical Bar / Pipe <><>
-@ #7C, 0x7C, 01111100, 1111100, character-|, char-|, c-|, /|
+@ #7C, 0x7C, 01111100, 1111100, symbols, character-|, char-|, c-|, /|
 #### <table><col><c>125<> <><col><c>7D<> <><col><c>01111101<> <><col><c>}  <> <><col>Right Bracket / Right Curly Brackets / Braces <><>
-@ #7D, 0x7D, 01111101, 1111101, punctuation, character-}, char-}, c-}, /}
+@ #7D, 0x7D, 01111101, 1111101, punctuation, symbols, character-}, char-}, c-}, /}
 #### <table><col><c>126<> <><col><c>7E<> <><col><c>01111110<> <><col><c>~  <> <><col>Tilde <><>
-@ #7E, 0x7E, 01111110, 1111110, diacritics, accents, character-~, char-~, c-~, /~
+@ #7E, 0x7E, 01111110, 1111110, diacritics, accents, symbols, character-~, char-~, c-~, /~
 #### <table><col><c>127<> <><col><c>7F<> <><col><c>01111111<> <><col><c>DEL<> <><col>Delete <><>
 @ #7F, 0x7F, 01111111, 1111111, control characters, ^?
 #### <table><col><c>128<> <><col><c>80<> <><col><c>10000000<> <><col><c>   <> <><col> <><>
@@ -346,39 +327,39 @@ Use search to find what you need.
 #### <table><col><c>160<> <><col><c>A0<> <><col><c>10100000<> <><col><c>   <> <><col>&nbsp; / Non-breaking Space / Required Space / NBSP <><>
 @ #A0, 0xA0, 10100000, 10100000, character-&nbsp;, char-&nbsp;, c-&nbsp;, /&nbsp;
 #### <table><col><c>161<> <><col><c>A1<> <><col><c>10100001<> <><col><c>¡  <> <><col>Inverted Exclamation Mark <><>
-@ #A1, 0xA1, 10100001, 10100001, character-¡, char-¡, c-¡, /¡
+@ #A1, 0xA1, 10100001, 10100001, punctuation, symbols, character-¡, char-¡, c-¡, /¡
 #### <table><col><c>162<> <><col><c>A2<> <><col><c>10100010<> <><col><c>¢  <> <><col>Cent <><>
-@ #A2, 0xA2, 10100010, 10100010, currencies, currency, moneys, character-¢, char-¢, c-¢, /¢
+@ #A2, 0xA2, 10100010, 10100010, currencies, currency, moneys, symbols, character-¢, char-¢, c-¢, /¢
 #### <table><col><c>163<> <><col><c>A3<> <><col><c>10100011<> <><col><c>£  <> <><col>Pound Sign <><>
-@ #A3, 0xA3, 10100011, 10100011, currencies, currency, moneys, character-£, char-£, c-£, /£
+@ #A3, 0xA3, 10100011, 10100011, currencies, currency, moneys, symbols, character-£, char-£, c-£, /£
 #### <table><col><c>164<> <><col><c>A4<> <><col><c>10100100<> <><col><c>¤  <> <><col>Currency Sign / Scarab <><>
-@ #A4, 0xA4, 10100100, 10100100, currencies, currency, moneys, character-¤, char-¤, c-¤, /¤
+@ #A4, 0xA4, 10100100, 10100100, currencies, currency, moneys, symbols, character-¤, char-¤, c-¤, /¤
 #### <table><col><c>165<> <><col><c>A5<> <><col><c>10100101<> <><col><c>¥  <> <><col>Yen Sign / Yuan Sign <><>
-@ #A5, 0xA5, 10100101, 10100101, currencies, currency, moneys, character-¥, char-¥, c-¥, /¥
+@ #A5, 0xA5, 10100101, 10100101, currencies, currency, moneys, symbols, character-¥, char-¥, c-¥, /¥
 #### <table><col><c>166<> <><col><c>A6<> <><col><c>10100110<> <><col><c>¦  <> <><col>Vertical Bar / Broken Bar <><>
-@ #A6, 0xA6, 10100110, 10100110, character-¦, char-¦, c-¦, /¦
+@ #A6, 0xA6, 10100110, 10100110, symbols, character-¦, char-¦, c-¦, /¦
 #### <table><col><c>167<> <><col><c>A7<> <><col><c>10100111<> <><col><c>§  <> <><col>Section Sign <><>
-@ #A7, 0xA7, 10100111, 10100111, character-§, char-§, c-§, /§
+@ #A7, 0xA7, 10100111, 10100111, symbols, character-§, char-§, c-§, /§
 #### <table><col><c>168<> <><col><c>A8<> <><col><c>10101000<> <><col><c>¨  <> <><col>Umlaut / Diaeresis (Diacritic) / Trema <><>
 @ #A8, 0xA8, 10101000, 10101000, diacritics, accents, character-¨, char-¨, c-¨, /¨
 #### <table><col><c>169<> <><col><c>A9<> <><col><c>10101001<> <><col><c>©  <> <><col>Copyright Symbol / Copyright Sign <><>
-@ #A9, 0xA9, 10101001, 10101001, character-©, char-©, c-©, /©
+@ #A9, 0xA9, 10101001, 10101001, symbols, character-©, char-©, c-©, /©
 #### <table><col><c>170<> <><col><c>AA<> <><col><c>10101010<> <><col><c>ª  <> <><col>Ordinal Indicator <><>
 @ #AA, 0xAA, 10101010, 10101010, character-ª, char-ª, c-ª, /ª
 #### <table><col><c>171<> <><col><c>AB<> <><col><c>10101011<> <><col><c>«  <> <><col>Left Guillemet <><>
-@ #AB, 0xAB, 10101011, 10101011, character-«, char-«, c-«, /«
+@ #AB, 0xAB, 10101011, 10101011, symbols, character-«, char-«, c-«, /«
 #### <table><col><c>172<> <><col><c>AC<> <><col><c>10101100<> <><col><c>¬  <> <><col>Negation <><>
-@ #AC, 0xAC, 10101100, 10101100, character-¬, char-¬, c-¬, /¬
+@ #AC, 0xAC, 10101100, 10101100, symbols, character-¬, char-¬, c-¬, /¬
 #### <table><col><c>173<> <><col><c>AD<> <><col><c>10101101<> <><col><c>SHY<> <><col>Soft Hyphen <><>
 @ #AD, 0xAD, 10101101, 10101101, control characters
 #### <table><col><c>174<> <><col><c>AE<> <><col><c>10101110<> <><col><c>®  <> <><col>Registered Trademark Symbol <><>
-@ #AE, 0xAE, 10101110, 10101110, character-®, char-®, c-®, /®
+@ #AE, 0xAE, 10101110, 10101110, symbols, character-®, char-®, c-®, /®
 #### <table><col><c>175<> <><col><c>AF<> <><col><c>10101111<> <><col><c>¯  <> <><col>Macron (Diacritic) / Straight Bar / Overbar / Overline <><>
 @ #AF, 0xAF, 10101111, 10101111, diacritics, accents, character-¯, char-¯, c-¯, /¯
 #### <table><col><c>176<> <><col><c>B0<> <><col><c>10110000<> <><col><c>°  <> <><col>Degree Symbol / Degree Sign <><>
-@ #B0, 0xB0, 10110000, 10110000, character-°, char-°, c-°, /°
+@ #B0, 0xB0, 10110000, 10110000, symbols, character-°, char-°, c-°, /°
 #### <table><col><c>177<> <><col><c>B1<> <><col><c>10110001<> <><col><c>±  <> <><col>Plus-Minus Sign <><>
-@ #B1, 0xB1, 10110001, 10110001, character-±, char-±, c-±, /±
+@ #B1, 0xB1, 10110001, 10110001, symbols, character-±, char-±, c-±, /±
 #### <table><col><c>178<> <><col><c>B2<> <><col><c>10110010<> <><col><c>²  <> <><col>Superscript 2 / Supescript Two <><>
 @ #B2, 0xB2, 10110010, 10110010, character-², char-², c-², /²
 #### <table><col><c>179<> <><col><c>B3<> <><col><c>10110011<> <><col><c>³  <> <><col>Superscript 3 / Superscript Three <><>
@@ -388,9 +369,9 @@ Use search to find what you need.
 #### <table><col><c>181<> <><col><c>B5<> <><col><c>10110101<> <><col><c>µ  <> <><col>Greek Letter Μu / Micro <><>
 @ #B5, 0xB5, 10110101, 10110101, character-µ, char-µ, c-µ, /µ
 #### <table><col><c>182<> <><col><c>B6<> <><col><c>10110110<> <><col><c>¶  <> <><col>Pilcrow / Paragraph Mark / Paragraph <><>
-@ #B6, 0xB6, 10110110, 10110110, character-¶, char-¶, c-¶, /¶
+@ #B6, 0xB6, 10110110, 10110110, symbols, character-¶, char-¶, c-¶, /¶
 #### <table><col><c>183<> <><col><c>B7<> <><col><c>10110111<> <><col><c>·  <> <><col>Interpunct / Middle Dot / Middot / Centered Dot <><>
-@ #B7, 0xB7, 10110111, 10110111, character-·, char-·, c-·, /·
+@ #B7, 0xB7, 10110111, 10110111, symbols, character-·, char-·, c-·, /·
 #### <table><col><c>184<> <><col><c>B8<> <><col><c>10111000<> <><col><c>¸  <> <><col>Cedilla / Cedille <><>
 @ #B8, 0xB8, 10111000, 10111000, character-¸, char-¸, c-¸, /¸
 #### <table><col><c>185<> <><col><c>B9<> <><col><c>10111001<> <><col><c>¹  <> <><col>Superscript 1 / Superscript One <><>
@@ -398,15 +379,15 @@ Use search to find what you need.
 #### <table><col><c>186<> <><col><c>BA<> <><col><c>10111010<> <><col><c>º  <> <><col>Ordinal Indicator <><>
 @ #BA, 0xBA, 10111010, 10111010, character-º, char-º, c-º, /º
 #### <table><col><c>187<> <><col><c>BB<> <><col><c>10111011<> <><col><c>»  <> <><col>Right Guillemet <><>
-@ #BB, 0xBB, 10111011, 10111011, character-», char-», c-», /»
+@ #BB, 0xBB, 10111011, 10111011, symbols, character-», char-», c-», /»
 #### <table><col><c>188<> <><col><c>BC<> <><col><c>10111100<> <><col><c>¼  <> <><col>Quarter Fraction / One Over Four <><>
-@ #BC, 0xBC, 10111100, 10111100, character-¼, char-¼, c-¼, /¼
+@ #BC, 0xBC, 10111100, 10111100, numbers, character-¼, char-¼, c-¼, /¼
 #### <table><col><c>189<> <><col><c>BD<> <><col><c>10111101<> <><col><c>½  <> <><col>Half Fraction / One Half / One Over Two <><>
-@ #BD, 0xBD, 10111101, 10111101, character-½, char-½, c-½, /½
+@ #BD, 0xBD, 10111101, 10111101, numbers, character-½, char-½, c-½, /½
 #### <table><col><c>190<> <><col><c>BE<> <><col><c>10111110<> <><col><c>¾  <> <><col>Three Quarters Fraction / Three Over Four <><>
-@ #BE, 0xBE, 10111110, 10111110, character-¾, char-¾, c-¾, /¾
+@ #BE, 0xBE, 10111110, 10111110, numbers, character-¾, char-¾, c-¾, /¾
 #### <table><col><c>191<> <><col><c>BF<> <><col><c>10111111<> <><col><c>¿  <> <><col>Inverted Question Mark <><>
-@ #BF, 0xBF, 10111111, 10111111, character-¿, char-¿, c-¿, /¿
+@ #BF, 0xBF, 10111111, 10111111, punctuation, character-¿, char-¿, c-¿, /¿
 #### <table><col><c>192<> <><col><c>C0<> <><col><c>11000000<> <><col><c>À  <> <><col>Upper Case A-Grave <><>
 @ #C0, 0xC0, 11000000, 11000000, base-a, -a, vowels, accented, a-acute , acute, ´, a-grave , grave, `, character-À, char-À, c-À, /À
 #### <table><col><c>193<> <><col><c>C1<> <><col><c>11000001<> <><col><c>Á  <> <><col>Upper Case A-Acute <><>
@@ -454,7 +435,7 @@ Use search to find what you need.
 #### <table><col><c>214<> <><col><c>D6<> <><col><c>11010110<> <><col><c>Ö  <> <><col>Upper Case O With Umlaut <><>
 @ #D6, 0xD6, 11010110, 11010110, base-o, -o, vowels, accented, o-umlaut , umlaut, ¨, character-Ö, char-Ö, c-Ö, /Ö
 #### <table><col><c>215<> <><col><c>D7<> <><col><c>11010111<> <><col><c>×  <> <><col>Multiply Sign / Times Sign <><>
-@ #D7, 0xD7, 11010111, 11010111, character-×, char-×, c-×, /×
+@ #D7, 0xD7, 11010111, 11010111, maths, mathematics, symbols, character-×, char-×, c-×, /×
 #### <table><col><c>216<> <><col><c>D8<> <><col><c>11011000<> <><col><c>Ø  <> <><col>Upper Case Ø <><>
 @ #D8, 0xD8, 11011000, 11011000, character-Ø, char-Ø, c-Ø, /Ø
 #### <table><col><c>217<> <><col><c>D9<> <><col><c>11011001<> <><col><c>Ù  <> <><col>Upper Case U-Grave <><>
@@ -518,7 +499,7 @@ Use search to find what you need.
 #### <table><col><c>246<> <><col><c>F6<> <><col><c>11110110<> <><col><c>ö  <> <><col>Lower Case O With Umlaut <><>
 @ #F6, 0xF6, 11110110, 11110110, base-o, -o, vowels, accented, o-umlaut , umlaut, ¨, character-ö, char-ö, c-ö, /ö
 #### <table><col><c>247<> <><col><c>F7<> <><col><c>11110111<> <><col><c>÷  <> <><col>Obelus / Division Sign / Divide Sign <><>
-@ #F7, 0xF7, 11110111, 11110111, character-÷, char-÷, c-÷, /÷
+@ #F7, 0xF7, 11110111, 11110111, maths, mathematics, symbols, character-÷, char-÷, c-÷, /÷
 #### <table><col><c>248<> <><col><c>F8<> <><col><c>11111000<> <><col><c>ø  <> <><col>Lower Case Ø <><>
 @ #F8, 0xF8, 11111000, 11111000, character-ø, char-ø, c-ø, /ø
 #### <table><col><c>249<> <><col><c>F9<> <><col><c>11111001<> <><col><c>ù  <> <><col>Lower Case U-Grave <><>

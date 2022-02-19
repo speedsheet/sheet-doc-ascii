@@ -34,10 +34,26 @@ ASCIIS_FIELD_LINK = 5
 ASCII_DOC_START = '''# <#>ASCII<> SpeedSheet
 <b>Find what you need, faster.<>
 
-A searchable ASCII cheatsheet.
 
+### Search For It
 
-<image "ascii-example.webp">
+This is a searchable ASCII table.
+Use search to find what you need.
+
+<card><table><col><b>Need This?		<><><col><b>Search For:		<><><col><b>See Search In Action:<><>
+<col> <>
+<col>Letter A<><col><c>/<v>a<><><><col><l /s/ascii?search=%2Fa>/a<><>
+<col>by ASCII Code<><col><c><v>65<><><><col><l /s/ascii?search=65>65<><>
+<col>by ASCII Hex<><col><c>#<v>41<><><><col><l /s/ascii?search=%2341>#41<><>
+<col> <><col><c>0x<v>41<><><><col><l /s/ascii?search=0x41>0x41<><>
+<col> <>
+<col>All Forms of A<><col><c>base-<v>a<><><><col><l /s/ascii?search=base-a>base-a<><>
+<col> <>
+<col>Numbers<><col><c>numbers<><><col><l /s/ascii?search=numbers>numbers<><>
+<col>Punctuation<><col><c>punctuation<><><col><l /s/ascii?search=punctuation>punctuation<><>
+<col> <>
+<col>Help<><col><c>help<><><col><l /s/ascii?search=help>help<><><><>
+
 
 
 '''
@@ -111,8 +127,11 @@ brackets
 control character
 currencies
 diacritic
+digits
 numbers
-punctuation<>
+math
+punctuation
+symbols<>
 @
 @ tips, tricks, help, search terms
 
@@ -230,11 +249,20 @@ def to_stash_tag(item):
 	if is_diacritic(code):
 		tag += ', diacritics, accents'
 
+	if is_digit(code):
+		tag += ', digits'
+
+	if is_math(code):
+		tag += ', maths, mathematics'
+
 	if is_number(code):
 		tag += ', numbers'
 
 	if item.is_punctuation():
 		tag += ', punctuation'
+
+	if item.is_symbol():
+		tag += ', symbols'
 
 	if item.is_control_char():
 		tag += ', control characters'
